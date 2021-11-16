@@ -43,7 +43,7 @@ public class GameManager : MonoBehaviour
         }
         if (isSpawned)
         {
-            if (gameDate.dateInInt == 17)
+            if (gameDate.dateInInt == 16)
             {
                 Instantiate(presentOne, spawnPointOne.transform.position, Quaternion.identity);
                 isSpawned = false;
