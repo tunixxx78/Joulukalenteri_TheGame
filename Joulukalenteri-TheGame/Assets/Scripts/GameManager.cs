@@ -7,8 +7,8 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public Date gameDate;
-    [SerializeField] GameObject presentOne, spawnPointOne, presentTwo, spawnPointTwo;
-    bool isSpawned = true;
+    [SerializeField] GameObject presentOne, spawnPointOne, presentTwo, spawnPointTwo, presentThree, spawnPointThree;
+    public bool isSpawned = true, isSpawned2 = false, isSpawned3 = false;
 
     private void Awake()
     {
@@ -19,6 +19,8 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         DayOne();
+        DayTwo();
+        DayThree();
     }
     public void StartGameNow()
     {
@@ -30,6 +32,15 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
+    public void IsSpawnedToTrue()
+    {
+        if (DataHolder.dataInstance.presentTwoSpawned == false)
+        {
+            isSpawned2 = true;
+        }
+        
+    }
+
 
     public void QuitGame()
     {
@@ -38,33 +49,50 @@ public class GameManager : MonoBehaviour
 
     void DayOne()
     {
-        if (gameDate.dateInInt < 18)
+        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
         {
             
-        }
-        if (isSpawned)
-        {
-            if (gameDate.dateInInt == 17)
+
+            if (isSpawned)
             {
-                Instantiate(presentOne, spawnPointOne.transform.position, Quaternion.identity);
-                isSpawned = false;
+                Debug.Log("T??ll?");
+                if (gameDate.dateInInt >= 16)
+                {
+                    Instantiate(presentOne, spawnPointOne.transform.position, Quaternion.identity);
+                    isSpawned = false;
+                }
             }
         }
+        
         
         
     }
     void DayTwo()
     {
-        if(gameDate.dateInInt < 19)
+        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
         {
-
-        }
-        if (isSpawned == true)
-        {
-            if (gameDate.dateInInt == 17)
+            if (isSpawned2 == true)
             {
-                Instantiate(presentTwo, spawnPointTwo.transform.position, Quaternion.identity);
-                isSpawned = false;
+                if (gameDate.dateInInt >= 17 )
+                {
+                    Instantiate(presentTwo, spawnPointTwo.transform.position, Quaternion.identity);
+                    isSpawned2 = false;
+                }
+            }
+        }
+    }
+
+    void DayThree()
+    {
+        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
+        {
+            if (isSpawned2 == true)
+            {
+                if (gameDate.dateInInt >= 18)
+                {
+                    Instantiate(presentThree, spawnPointThree.transform.position, Quaternion.identity);
+                    isSpawned3 = false;
+                }
             }
         }
     }

@@ -15,6 +15,12 @@ public class GameDataButtons : MonoBehaviour
     {
         DataHolder.dataInstance.presentOne = true;
         DataHolder.dataInstance.presentOneOpened = true;
+        Invoke("presentTwo", 1);
         DataHolder.dataInstance.SaveData();
+    }
+
+    void presentTwo()
+    {
+        DataHolder.dataInstance.presentTwoSpawned = true;
     }
 }
