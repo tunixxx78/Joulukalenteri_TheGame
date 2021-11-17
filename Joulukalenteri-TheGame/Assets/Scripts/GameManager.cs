@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public Date gameDate;
-    [SerializeField] GameObject presentOne, spawnPointOne;
+    [SerializeField] GameObject presentOne, spawnPointOne, presentTwo, spawnPointTwo;
     bool isSpawned = true;
 
     private void Awake()
@@ -30,6 +30,7 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
+
     public void QuitGame()
     {
         Application.Quit();
@@ -37,13 +38,13 @@ public class GameManager : MonoBehaviour
 
     void DayOne()
     {
-        if (gameDate.dateInInt < 17)
+        if (gameDate.dateInInt < 18)
         {
             
         }
         if (isSpawned)
         {
-            if (gameDate.dateInInt == 16)
+            if (gameDate.dateInInt == 17)
             {
                 Instantiate(presentOne, spawnPointOne.transform.position, Quaternion.identity);
                 isSpawned = false;
@@ -51,5 +52,20 @@ public class GameManager : MonoBehaviour
         }
         
         
+    }
+    void DayTwo()
+    {
+        if(gameDate.dateInInt < 19)
+        {
+
+        }
+        if (isSpawned == true)
+        {
+            if (gameDate.dateInInt == 17)
+            {
+                Instantiate(presentTwo, spawnPointTwo.transform.position, Quaternion.identity);
+                isSpawned = false;
+            }
+        }
     }
 }

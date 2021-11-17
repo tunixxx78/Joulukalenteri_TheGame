@@ -11,4 +11,10 @@ public class GameDataButtons : MonoBehaviour
         DataHolder.dataInstance.gameHasStarted = true;
         DataHolder.dataInstance.SaveData();
     }
+    public void PresentOneOpened()
+    {
+        DataHolder.dataInstance.presentOne = true;
+        DataHolder.dataInstance.presentOneOpened = true;
+        DataHolder.dataInstance.SaveData();
+    }
 }
