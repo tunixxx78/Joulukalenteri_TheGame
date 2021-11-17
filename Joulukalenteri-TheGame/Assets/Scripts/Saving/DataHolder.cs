@@ -9,7 +9,7 @@ public class DataHolder : MonoBehaviour
 {
     public static DataHolder dataInstance;
 
-    public bool gameHasStarted, presentOne, presentOneOpened;
+    public bool gameHasStarted, presentOne, presentOneOpened, presentTwoSpawned;
 
     private void Awake()
     {
@@ -32,6 +32,7 @@ public class DataHolder : MonoBehaviour
             gameHasStarted = false;
             presentOne = false;
             presentOneOpened = false;
+            presentTwoSpawned = false;
         }
     }
 
@@ -44,6 +45,7 @@ public class DataHolder : MonoBehaviour
         data.gameHasStarted = gameHasStarted;
         data.presentOne = presentOne;
         data.presentOneOpened = presentOneOpened;
+        data.presentTwoSpawned = presentTwoSpawned;
 
         bf.Serialize(file, data);
         file.Close();
@@ -60,6 +62,7 @@ public class DataHolder : MonoBehaviour
             gameHasStarted = data.gameHasStarted;
             presentOne = data.presentOne;
             presentOneOpened = data.presentOneOpened;
+            presentTwoSpawned = data.presentTwoSpawned;
         }
     }
 
@@ -70,5 +73,5 @@ public class DataHolder : MonoBehaviour
 
 class GameData
 {
-    public bool gameHasStarted, presentOne, presentOneOpened;
+    public bool gameHasStarted, presentOne, presentOneOpened, presentTwoSpawned;
 }

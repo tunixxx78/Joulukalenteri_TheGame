@@ -16,7 +16,7 @@ public class PresentManager : MonoBehaviour
     {
         if (DataHolder.dataInstance.presentOneOpened == true)
         {
-            CoverImage.SetActive(false);
+            //CoverImage.SetActive(false);
         }
     }
 
