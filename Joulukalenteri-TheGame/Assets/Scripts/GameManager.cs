@@ -32,13 +32,21 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
-    public void IsSpawnedToTrue()
+    public void PresentTwoSpawned()
     {
         if (DataHolder.dataInstance.presentTwoSpawned == false)
         {
             isSpawned2 = true;
         }
         
+    }
+    public void PresentThreeSpawned()
+    {
+        if (DataHolder.dataInstance.presentThreeSpawned == false)
+        {
+            isSpawned3 = true;
+        }
+
     }
 
 
@@ -56,7 +64,7 @@ public class GameManager : MonoBehaviour
             if (isSpawned)
             {
                 Debug.Log("T??ll?");
-                if (gameDate.dateInInt >= 16)
+                if (gameDate.dateInInt >= 15)
                 {
                     Instantiate(presentOne, spawnPointOne.transform.position, Quaternion.identity);
                     isSpawned = false;
@@ -73,7 +81,7 @@ public class GameManager : MonoBehaviour
         {
             if (isSpawned2 == true)
             {
-                if (gameDate.dateInInt >= 17 )
+                if (gameDate.dateInInt >= 16)
                 {
                     Instantiate(presentTwo, spawnPointTwo.transform.position, Quaternion.identity);
                     isSpawned2 = false;
@@ -86,9 +94,11 @@ public class GameManager : MonoBehaviour
     {
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
         {
-            if (isSpawned2 == true)
+            
+            if (isSpawned3 == true)
             {
-                if (gameDate.dateInInt >= 18)
+                Debug.Log("PASKAA");
+                if (gameDate.dateInInt >= 17)
                 {
                     Instantiate(presentThree, spawnPointThree.transform.position, Quaternion.identity);
                     isSpawned3 = false;

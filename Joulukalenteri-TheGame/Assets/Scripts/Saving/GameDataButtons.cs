@@ -15,12 +15,38 @@ public class GameDataButtons : MonoBehaviour
     {
         DataHolder.dataInstance.presentOne = true;
         DataHolder.dataInstance.presentOneOpened = true;
-        Invoke("presentTwo", 1);
+        Invoke("PresentTwo", 1);
+        DataHolder.dataInstance.SaveData();
+    }
+    public void PresentTwoOpened()
+    {
+        DataHolder.dataInstance.presentTwo = true;
+        DataHolder.dataInstance.presentTwoOpened = true;
+        Invoke("PresentThree", 1);
+        DataHolder.dataInstance.SaveData();
+    }
+    public void PresentThreeOpened()
+    {
+        DataHolder.dataInstance.presentThree = true;
+        DataHolder.dataInstance.presentThreeOpened = true;
+        Invoke("PresentFour", 1);
         DataHolder.dataInstance.SaveData();
     }
 
-    void presentTwo()
+    void PresentTwo()
     {
         DataHolder.dataInstance.presentTwoSpawned = true;
+        DataHolder.dataInstance.SaveData();
+
+    }
+    void PresentThree()
+    {
+        DataHolder.dataInstance.presentThreeSpawned = true;
+        DataHolder.dataInstance.SaveData();
+    }
+    void PresentFour()
+    {
+        DataHolder.dataInstance.PresentFourSpawned = true;
+        DataHolder.dataInstance.SaveData();
     }
 }

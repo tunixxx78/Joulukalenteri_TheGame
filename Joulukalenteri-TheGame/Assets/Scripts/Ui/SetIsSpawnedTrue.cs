@@ -11,8 +11,12 @@ public class SetIsSpawnedTrue : MonoBehaviour
         gameManager = FindObjectOfType<GameManager>();
     }
 
-    public void SetIsSpawnedToTrue()
+    public void PresentTwo()
     {
-        gameManager.IsSpawnedToTrue();
+        gameManager.PresentTwoSpawned();
+    }
+    public void PresentThree()
+    {
+        gameManager.PresentThreeSpawned();
     }
 }

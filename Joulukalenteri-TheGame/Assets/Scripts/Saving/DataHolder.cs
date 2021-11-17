@@ -9,7 +9,9 @@ public class DataHolder : MonoBehaviour
 {
     public static DataHolder dataInstance;
 
-    public bool gameHasStarted, presentOne, presentOneOpened, presentTwoSpawned;
+    public bool gameHasStarted, presentOne, presentTwo, presentThree;
+    public bool presentOneOpened, presentTwoOpened, presentThreeOpened;
+    public bool presentTwoSpawned, presentThreeSpawned, PresentFourSpawned;
 
     private void Awake()
     {
@@ -31,8 +33,14 @@ public class DataHolder : MonoBehaviour
         {
             gameHasStarted = false;
             presentOne = false;
+            presentTwo = false;
+            presentThree = false;
             presentOneOpened = false;
+            presentTwoOpened = false;
+            presentThreeOpened = false;
             presentTwoSpawned = false;
+            presentThreeSpawned = false;
+            PresentFourSpawned = false;
         }
     }
 
@@ -44,8 +52,14 @@ public class DataHolder : MonoBehaviour
 
         data.gameHasStarted = gameHasStarted;
         data.presentOne = presentOne;
+        data.presentTwo = presentTwo;
+        data.presentThree = presentThree;
         data.presentOneOpened = presentOneOpened;
+        data.presentTwoOpened = presentTwoOpened;
+        data.presentThreeOpened = presentThreeOpened;
         data.presentTwoSpawned = presentTwoSpawned;
+        data.presentThreeSpawned = presentThreeSpawned;
+        data.PresentFourSpawned = PresentFourSpawned;
 
         bf.Serialize(file, data);
         file.Close();
@@ -61,8 +75,14 @@ public class DataHolder : MonoBehaviour
 
             gameHasStarted = data.gameHasStarted;
             presentOne = data.presentOne;
+            presentTwo = data.presentTwo;
+            presentThree = data.presentThree;
             presentOneOpened = data.presentOneOpened;
+            presentTwoOpened = data.presentTwoOpened;
+            presentThreeOpened = data.presentThreeOpened;
             presentTwoSpawned = data.presentTwoSpawned;
+            presentThreeSpawned = data.presentThreeSpawned;
+            PresentFourSpawned = data.PresentFourSpawned;
         }
     }
 
@@ -73,5 +93,7 @@ public class DataHolder : MonoBehaviour
 
 class GameData
 {
-    public bool gameHasStarted, presentOne, presentOneOpened, presentTwoSpawned;
+    public bool gameHasStarted, presentOne, presentTwo, presentThree;
+    public bool presentOneOpened, presentTwoOpened, presentThreeOpened;
+    public bool presentTwoSpawned, presentThreeSpawned, PresentFourSpawned;
 }
