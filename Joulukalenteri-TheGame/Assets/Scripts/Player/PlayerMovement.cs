@@ -7,6 +7,8 @@ public class PlayerMovement : MonoBehaviour
 {
     public NavMeshAgent playerNavMeshAgent;
     public Camera playerCamera;
+    
+
 
     private void Update()
     {
@@ -20,6 +22,29 @@ public class PlayerMovement : MonoBehaviour
                 playerNavMeshAgent.SetDestination(myRaycastHit.point);
             }
         }
+
+        
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.CompareTag("Gift"))
+        {
+            Debug.Log("PELAAJA OSUI LAHJAAN!");
+            var target = FindObjectOfType<TargetIndicator>().enabled;
+            Debug.Log(target);
+
+            if(target == true)
+            {
+                target = false;
+
+                Debug.Log(target);
+            }
+
+            
+            
+        }
+        
     }
 
 }

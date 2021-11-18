@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Gift
+  - TargetIndicators
+  - TargetIndicator
   layers:
   - Default
   - TransparentFX
