@@ -27,4 +27,8 @@ public class UIIndicatorContreoller : MonoBehaviour
         indicator.InitialiseTargetIndicator(target, mainCamera, canvas);
         targetIndicators.Add(indicator);
     }
+
+    
+
+    
 }
