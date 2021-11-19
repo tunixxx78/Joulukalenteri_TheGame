@@ -31,14 +31,18 @@ public class PlayerMovement : MonoBehaviour
         if (collision.collider.CompareTag("Gift"))
         {
             Debug.Log("PELAAJA OSUI LAHJAAN!");
-            var target = FindObjectOfType<TargetIndicator>().enabled;
+            var target = FindObjectOfType<TargetIndicator>();
             Debug.Log(target);
 
-            if(target == true)
+            if(target.gameObject.activeSelf == true)
             {
-                target = false;
+                target.gameObject.SetActive(false);
 
                 Debug.Log(target);
+            }
+            else
+            {
+                
             }
 
             
