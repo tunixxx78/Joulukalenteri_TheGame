@@ -14,7 +14,7 @@ public class Date : MonoBehaviour
     {
         string time = System.DateTime.UtcNow.ToLocalTime().ToString("HH:mm");
         string date = System.DateTime.UtcNow.ToLocalTime().ToString("dd");
-        string month = System.DateTime.UtcNow.ToLocalTime().ToString("MMMM");
+        string month = System.DateTime.UtcNow.ToLocalTime().ToString("MMM");
         //print(time);
         //print(date);
         timeText.text = time;
@@ -33,7 +33,7 @@ public class Date : MonoBehaviour
     {
         string time = System.DateTime.UtcNow.ToLocalTime().ToString("HH:mm");
         string date = System.DateTime.UtcNow.ToLocalTime().ToString("dd");
-        string month = System.DateTime.UtcNow.ToLocalTime().ToString("MMMM");
+        string month = System.DateTime.UtcNow.ToLocalTime().ToString("MMM");
         //print(time);
         timeText.text = time;
         dateText.text = date;
