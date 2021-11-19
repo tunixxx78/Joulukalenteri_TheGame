@@ -7,8 +7,8 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public Date gameDate;
-    [SerializeField] GameObject presentOne, spawnPointOne, presentTwo, spawnPointTwo, presentThree, spawnPointThree;
-    public bool isSpawned = true, isSpawned2 = false, isSpawned3 = false;
+    [SerializeField] GameObject presentOne, spawnPointOne, presentTwo, spawnPointTwo, presentThree, spawnPointThree, presentFour, spawnPointFour;
+    public bool isSpawned = true, isSpawned2 = false, isSpawned3 = false, isSpawned4 = false;
 
     private void Awake()
     {
@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour
         DayOne();
         DayTwo();
         DayThree();
+        DayFour();
     }
     public void StartGameNow()
     {
@@ -47,6 +48,13 @@ public class GameManager : MonoBehaviour
             isSpawned3 = true;
         }
 
+    }
+    public void PresentFourSpawned()
+    {
+        if(DataHolder.dataInstance.PresentFourSpawned == false)
+        {
+            isSpawned4 = true;
+        }
     }
 
 
@@ -102,6 +110,22 @@ public class GameManager : MonoBehaviour
                 {
                     Instantiate(presentThree, spawnPointThree.transform.position, Quaternion.identity);
                     isSpawned3 = false;
+                }
+            }
+        }
+    }
+    void DayFour()
+    {
+        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
+        {
+
+            if (isSpawned4 == true)
+            {
+                Debug.Log("PASKAA");
+                if (gameDate.dateInInt >= 18)
+                {
+                    Instantiate(presentFour, spawnPointFour.transform.position, Quaternion.identity);
+                    isSpawned4 = false;
                 }
             }
         }
