@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PanelManager : MonoBehaviour
 {
-    [SerializeField] GameObject sled, elf, reindeer;
+    [SerializeField] GameObject sled, elf, reindeer, gift;
     DataHolder dataHolder;
 
     private void Awake()
@@ -18,6 +18,7 @@ public class PanelManager : MonoBehaviour
         PresentOne();
         PresentTwo();
         PresentThree();
+        presentFour();
         
     }
 
@@ -53,6 +54,17 @@ public class PanelManager : MonoBehaviour
         else
         {
             reindeer.SetActive(false);
+        }
+    }
+    void presentFour()
+    {
+        if(DataHolder.dataInstance.presentFour == true)
+        {
+            gift.SetActive(true);
+        }
+        else
+        {
+            gift.SetActive(false);
         }
     }
 }

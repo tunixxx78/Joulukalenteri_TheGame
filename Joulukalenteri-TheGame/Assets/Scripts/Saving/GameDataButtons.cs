@@ -32,6 +32,13 @@ public class GameDataButtons : MonoBehaviour
         Invoke("PresentFour", 1);
         DataHolder.dataInstance.SaveData();
     }
+    public void PresentFourOppened()
+    {
+        DataHolder.dataInstance.presentFour = true;
+        DataHolder.dataInstance.presentFourOpened = true;
+        Invoke("PresentFive", 1);
+        DataHolder.dataInstance.SaveData();
+    }
 
     void PresentTwo()
     {
@@ -47,6 +54,11 @@ public class GameDataButtons : MonoBehaviour
     void PresentFour()
     {
         DataHolder.dataInstance.PresentFourSpawned = true;
+        DataHolder.dataInstance.SaveData();
+    }
+    void PresentFive()
+    {
+        DataHolder.dataInstance.presentFiveSpawned = true;
         DataHolder.dataInstance.SaveData();
     }
 }
