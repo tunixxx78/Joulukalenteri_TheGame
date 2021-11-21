@@ -154,7 +154,77 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameDate: {fileID: 0}
   presentOne: {fileID: 0}
+  presentTwo: {fileID: 0}
+  presentThree: {fileID: 0}
+  presentFour: {fileID: 0}
+  presentFive: {fileID: 0}
+  presentSix: {fileID: 0}
+  presentSeven: {fileID: 0}
+  presentEight: {fileID: 0}
+  presentNine: {fileID: 0}
+  presentTen: {fileID: 0}
+  present11: {fileID: 0}
+  present12: {fileID: 0}
+  present13: {fileID: 0}
+  present14: {fileID: 0}
+  present15: {fileID: 0}
+  present16: {fileID: 0}
+  present17: {fileID: 0}
+  present18: {fileID: 0}
+  present19: {fileID: 0}
+  present20: {fileID: 0}
+  present21: {fileID: 0}
+  present22: {fileID: 0}
+  present23: {fileID: 0}
+  present24: {fileID: 0}
   spawnPointOne: {fileID: 0}
+  spawnPointTwo: {fileID: 0}
+  spawnPointThree: {fileID: 0}
+  spawnPointFour: {fileID: 0}
+  spawnPointFive: {fileID: 0}
+  spawnPointSix: {fileID: 0}
+  spawnPointSeven: {fileID: 0}
+  spawnPointEight: {fileID: 0}
+  spawnPointNine: {fileID: 0}
+  spawnPointTen: {fileID: 0}
+  spawnPoint11: {fileID: 0}
+  spawnPoint12: {fileID: 0}
+  spawnPoint13: {fileID: 0}
+  spawnPoint14: {fileID: 0}
+  spawnPoint15: {fileID: 0}
+  spawnPoint16: {fileID: 0}
+  spawnPoint17: {fileID: 0}
+  spawnPoint18: {fileID: 0}
+  spawnPoint19: {fileID: 0}
+  spawnPoint20: {fileID: 0}
+  spawnPoint21: {fileID: 0}
+  spawnPoint22: {fileID: 0}
+  spawnPoint23: {fileID: 0}
+  spawnPoint24: {fileID: 0}
+  isSpawned: 1
+  isSpawned2: 0
+  isSpawned3: 0
+  isSpawned4: 0
+  isSpawned5: 0
+  isSpawned6: 0
+  isSpawned7: 0
+  isSpawned8: 0
+  isSpawned9: 0
+  isSpawned10: 0
+  isSpawned11: 0
+  isSpawned12: 0
+  isSpawned13: 0
+  isSpawned14: 0
+  isSpawned15: 0
+  isSpawned16: 0
+  isSpawned17: 0
+  isSpawned18: 0
+  isSpawned19: 0
+  isSpawned20: 0
+  isSpawned21: 0
+  isSpawned22: 0
+  isSpawned23: 0
+  isSpawned24: 0
 --- !u!4 &33045641
 Transform:
   m_ObjectHideFlags: 0
@@ -294,7 +364,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30

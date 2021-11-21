@@ -7,11 +7,13 @@ public class PresentManager : MonoBehaviour
 {
     [SerializeField] GameObject picture, CoverImage;
     DataHolder dataHolder;
+    [SerializeField] BoxCollider presentCollider;
     
 
     private void Awake()
     {
         dataHolder = FindObjectOfType<DataHolder>();
+        
         
     }
 
@@ -31,6 +33,7 @@ public class PresentManager : MonoBehaviour
             picture.SetActive(true);
             
             Time.timeScale = 0;
+            Destroy(presentCollider);
             
         }
     }
