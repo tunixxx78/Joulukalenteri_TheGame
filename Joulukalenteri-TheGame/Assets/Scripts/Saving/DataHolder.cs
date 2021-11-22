@@ -15,6 +15,8 @@ public class DataHolder : MonoBehaviour
         present15Opened, present16Opened , present17Opened, present18Opened, present19Opened, present20Opened, present21Opened, present22Opened, present23Opened, present24Opened;
     public bool presentTwoSpawned, presentThreeSpawned, presentFourSpawned, presentFiveSpawned, presentSixSpawned, presentSevenSpawned, presentEightSpawned, presentNineSpawned, presentTenSpawned, present11Spawned, present12Spawned, present13Spawned, present14Spawned,
         present15Spawned, present16Spawned, present17Spawned, present18Spawned, present19Spawned, present20Spawned, present21Spawned, present22Spawned, present23Spawned, present24Spawned;
+    
+
 
     private void Awake()
     {

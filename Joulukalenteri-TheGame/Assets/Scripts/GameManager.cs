@@ -10,15 +10,18 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     GameObject presentOne, presentTwo, presentThree, presentFour, presentFive, presentSix, presentSeven, presentEight, presentNine, presentTen, present11, present12, present13, present14, present15, present16, present17,
         present18, present19, present20, present21, present22, present23, present24;
+    [SerializeField] GameObject presentOneOpened, presentTwoOpened, presentThreeOpened;
     [SerializeField] GameObject spawnPointOne, spawnPointTwo, spawnPointThree, spawnPointFour, spawnPointFive, spawnPointSix, spawnPointSeven, spawnPointEight, spawnPointNine, spawnPointTen, spawnPoint11, spawnPoint12, spawnPoint13, spawnPoint14,
         spawnPoint15, spawnPoint16, spawnPoint17, spawnPoint18, spawnPoint19, spawnPoint20, spawnPoint21, spawnPoint22, spawnPoint23, spawnPoint24;
-    public bool isSpawned = true, isSpawned2 = false, isSpawned3 = false, isSpawned4 = false, isSpawned5 = false, isSpawned6 = false, isSpawned7 = false, isSpawned8 = false, isSpawned9 = false, isSpawned10 = false, isSpawned11 = false, isSpawned12 = false, isSpawned13 = false,
+    bool isSpawned = true, isSpawned2 = false, isSpawned3 = false, isSpawned4 = false, isSpawned5 = false, isSpawned6 = false, isSpawned7 = false, isSpawned8 = false, isSpawned9 = false, isSpawned10 = false, isSpawned11 = false, isSpawned12 = false, isSpawned13 = false,
         isSpawned14 = false, isSpawned15 = false, isSpawned16 = false, isSpawned17 = false, isSpawned18 = false, isSpawned19 = false, isSpawned20 = false, isSpawned21 = false, isSpawned22 = false, isSpawned23 = false, isSpawned24 = false;
+
+    DataHolder dataHolder;
 
     private void Awake()
     {
         gameDate = FindObjectOfType<Date>();
-        
+        dataHolder = FindObjectOfType<DataHolder>();
     }
 
     private void Update()
@@ -236,14 +239,26 @@ public class GameManager : MonoBehaviour
         {
             
 
-            if (isSpawned)
+            if (isSpawned && dataHolder.presentOne == false)
             {
                 Debug.Log("T??ll?");
                 if (gameDate.dateInInt >= 1)
                 {
-                    Instantiate(presentOne, spawnPointOne.transform.position, Quaternion.identity);
+                    presentOne.SetActive(true);
+                    //Instantiate(presentOne, spawnPointOne.transform.position, Quaternion.identity);
                     isSpawned = false;
                 }
+                else
+                {
+                    presentOne.SetActive(false);
+                }
+            }
+            else if (dataHolder.presentOne == true && gameDate.dateInInt >= 1)
+            {
+                
+                presentOneOpened.SetActive(true);
+                presentOne.SetActive(false);
+                presentTwo.SetActive(true);
             }
         }
         
@@ -254,15 +269,29 @@ public class GameManager : MonoBehaviour
     {
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
         {
-            if (isSpawned2 == true)
+            if (isSpawned2 == true && dataHolder.presentTwo == false)
             {
                 if (gameDate.dateInInt >= 2)
                 {
-                    Instantiate(presentTwo, spawnPointTwo.transform.position, Quaternion.identity);
+                    presentTwo.SetActive(true);
+                    //Instantiate(presentTwo, spawnPointTwo.transform.position, Quaternion.identity);
                     isSpawned2 = false;
                 }
+                else
+                {
+                    presentTwo.SetActive(false);
+                }
             }
+            else if (dataHolder.presentTwo == true && gameDate.dateInInt >= 2)
+            {
+                
+                presentTwoOpened.SetActive(true);
+                presentTwo.SetActive(false);
+                presentThree.SetActive(true);
+            }
+
         }
+        
     }
 
     void DayThree()
@@ -270,14 +299,25 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
         {
             
-            if (isSpawned3 == true)
+            if (isSpawned3 == true && dataHolder.presentThree == false)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 3)
                 {
-                    Instantiate(presentThree, spawnPointThree.transform.position, Quaternion.identity);
+                    //Instantiate(presentThree, spawnPointThree.transform.position, Quaternion.identity);
                     isSpawned3 = false;
                 }
+                else
+                {
+                    presentThree.SetActive(false);
+                }
+            }
+            else if (dataHolder.presentThree == true && gameDate.dateInInt >= 3)
+            {
+                Debug.Log("PERSEEEEEEEEE");
+                presentThreeOpened.SetActive(true);
+                presentThree.SetActive(false);
+                presentFour.SetActive(true);
             }
         }
     }
