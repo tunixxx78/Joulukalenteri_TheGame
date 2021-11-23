@@ -7,11 +7,14 @@ public class PlayerMovement : MonoBehaviour
 {
     public NavMeshAgent playerNavMeshAgent;
     public Camera playerCamera;
+    [SerializeField] Animator playerAnimator;
     
+     
 
 
     private void Update()
     {
+
         if (Input.GetMouseButton(0))
         {
             Ray myRay = playerCamera.ScreenPointToRay(Input.mousePosition);
@@ -20,10 +23,15 @@ public class PlayerMovement : MonoBehaviour
             if(Physics.Raycast(myRay, out myRaycastHit))
             {
                 playerNavMeshAgent.SetDestination(myRaycastHit.point);
+                playerAnimator.SetBool("Walk", true);
             }
+           
+            
         }
-
+        else { playerAnimator.SetBool("Walk", false); }
         
+
+
     }
 
     private void OnCollisionEnter(Collision collision)

@@ -10,8 +10,9 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     GameObject presentOne, presentTwo, presentThree, presentFour, presentFive, presentSix, presentSeven, presentEight, presentNine, presentTen, present11, present12, present13, present14, present15, present16, present17,
         present18, present19, present20, present21, present22, present23, present24;
-    [SerializeField] GameObject presentOneOpened, presentTwoOpened, presentThreeOpened;
-    [SerializeField] GameObject spawnPointOne, spawnPointTwo, spawnPointThree, spawnPointFour, spawnPointFive, spawnPointSix, spawnPointSeven, spawnPointEight, spawnPointNine, spawnPointTen, spawnPoint11, spawnPoint12, spawnPoint13, spawnPoint14,
+    [SerializeField] GameObject presentOneOpened, presentTwoOpened, presentThreeOpened, presentFourOpened, presentFiveOpened, presentSixOpened, presentSevenOpened, presentEightOpened, presentNineOpened, presentTenOpened, present11Opened, present12Opened, present13Opened,
+        present14Opened, present15Opened, present16Opened, present17Opened, present18Opened, present19Opened, present20Opened, present21Opened, present22Opened, present23Opened, present24Opened;
+    GameObject spawnPointOne, spawnPointTwo, spawnPointThree, spawnPointFour, spawnPointFive, spawnPointSix, spawnPointSeven, spawnPointEight, spawnPointNine, spawnPointTen, spawnPoint11, spawnPoint12, spawnPoint13, spawnPoint14,
         spawnPoint15, spawnPoint16, spawnPoint17, spawnPoint18, spawnPoint19, spawnPoint20, spawnPoint21, spawnPoint22, spawnPoint23, spawnPoint24;
     bool isSpawned = true, isSpawned2 = false, isSpawned3 = false, isSpawned4 = false, isSpawned5 = false, isSpawned6 = false, isSpawned7 = false, isSpawned8 = false, isSpawned9 = false, isSpawned10 = false, isSpawned11 = false, isSpawned12 = false, isSpawned13 = false,
         isSpawned14 = false, isSpawned15 = false, isSpawned16 = false, isSpawned17 = false, isSpawned18 = false, isSpawned19 = false, isSpawned20 = false, isSpawned21 = false, isSpawned22 = false, isSpawned23 = false, isSpawned24 = false;
@@ -269,13 +270,15 @@ public class GameManager : MonoBehaviour
     {
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
         {
+            //presentTwo.SetActive(false);
+
             if (isSpawned2 == true && dataHolder.presentTwo == false)
             {
                 if (gameDate.dateInInt >= 2)
                 {
                     presentTwo.SetActive(true);
                     //Instantiate(presentTwo, spawnPointTwo.transform.position, Quaternion.identity);
-                    isSpawned2 = false;
+                    isSpawned2 = true;
                 }
                 else
                 {
@@ -304,8 +307,9 @@ public class GameManager : MonoBehaviour
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 3)
                 {
+                    presentThree.SetActive(true);
                     //Instantiate(presentThree, spawnPointThree.transform.position, Quaternion.identity);
-                    isSpawned3 = false;
+                    isSpawned3 = true;
                 }
                 else
                 {
@@ -314,7 +318,7 @@ public class GameManager : MonoBehaviour
             }
             else if (dataHolder.presentThree == true && gameDate.dateInInt >= 3)
             {
-                Debug.Log("PERSEEEEEEEEE");
+                
                 presentThreeOpened.SetActive(true);
                 presentThree.SetActive(false);
                 presentFour.SetActive(true);
@@ -326,30 +330,54 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
         {
 
-            if (isSpawned4 == true)
+            if (isSpawned4 == true && dataHolder.presentFour == false)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 4)
                 {
-                    Instantiate(presentFour, spawnPointFour.transform.position, Quaternion.identity);
+                    presentFour.SetActive(true);
+                    //Instantiate(presentFour, spawnPointFour.transform.position, Quaternion.identity);
                     isSpawned4 = false;
                 }
+                else
+                {
+                    presentThree.SetActive(false);
+                }
+            }
+            else if (dataHolder.presentFour == true && gameDate.dateInInt >= 4)
+            {
+                Debug.Log("PERSEEEEEEEEE");
+                presentFourOpened.SetActive(true);
+                presentFour.SetActive(false);
+                presentFive.SetActive(true);
             }
         }
+        
     }
     void DayFive()
     {
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
         {
 
-            if (isSpawned5 == true)
+            if (isSpawned5 == true && dataHolder.presentFive == false)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 5)
                 {
-                    Instantiate(presentFive, spawnPointFive.transform.position, Quaternion.identity);
+                    presentFive.SetActive(true);
+                    //Instantiate(presentFive, spawnPointFive.transform.position, Quaternion.identity);
                     isSpawned5 = false;
                 }
+                else
+                {
+                    presentFive.SetActive(false);
+                }
+            }
+            else if (dataHolder.presentFive == true && gameDate.dateInInt >= 5)
+            {
+                presentFiveOpened.SetActive(true);
+                presentFive.SetActive(false);
+                presentSix.SetActive(true);
             }
         }
     }
@@ -358,14 +386,22 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
         {
 
-            if (isSpawned6 == true)
+            if (isSpawned6 == true && dataHolder.presentSix == false)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 6)
                 {
-                    Instantiate(presentSix, spawnPointSix.transform.position, Quaternion.identity);
+                    presentSix.SetActive(true);
+                    //Instantiate(presentSix, spawnPointSix.transform.position, Quaternion.identity);
                     isSpawned6 = false;
                 }
+                else { presentSix.SetActive(false); }
+            }
+            else if (dataHolder.presentSix == true && gameDate.dateInInt >= 6)
+            {
+                presentSixOpened.SetActive(true);
+                presentSix.SetActive(false);
+                presentSeven.SetActive(true);
             }
         }
     }
@@ -374,14 +410,22 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
         {
 
-            if (isSpawned7 == true)
+            if (isSpawned7 == true && dataHolder.presentSeven == false)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 7)
                 {
-                    Instantiate(presentSeven, spawnPointSeven.transform.position, Quaternion.identity);
+                    presentSeven.SetActive(true);
+                    //Instantiate(presentSeven, spawnPointSeven.transform.position, Quaternion.identity);
                     isSpawned7 = false;
                 }
+                else { presentSeven.SetActive(false); }
+            }
+            else if (dataHolder.presentSeven == true && gameDate.dateInInt >= 7)
+            {
+                presentSevenOpened.SetActive(true);
+                presentSeven.SetActive(false);
+                presentEight.SetActive(true);
             }
         }
     }
@@ -390,14 +434,22 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
         {
 
-            if (isSpawned8 == true)
+            if (isSpawned8 == true && dataHolder.presentEight == false)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 8)
                 {
-                    Instantiate(presentEight, spawnPointEight.transform.position, Quaternion.identity);
+                    presentEight.SetActive(true);
+                    //Instantiate(presentEight, spawnPointEight.transform.position, Quaternion.identity);
                     isSpawned8 = false;
                 }
+                else { presentEight.SetActive(false); }
+            }
+            else if (dataHolder.presentEight == true && gameDate.dateInInt >= 8)
+            {
+                presentEightOpened.SetActive(true);
+                presentEight.SetActive(false);
+                presentNine.SetActive(true);
             }
         }
     }
@@ -406,14 +458,22 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
         {
 
-            if (isSpawned9 == true)
+            if (isSpawned9 == true && dataHolder.presentNine == false)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 9)
                 {
-                    Instantiate(presentNine, spawnPointNine.transform.position, Quaternion.identity);
+                    presentNine.SetActive(true);
+                    //Instantiate(presentNine, spawnPointNine.transform.position, Quaternion.identity);
                     isSpawned9 = false;
                 }
+                else { presentNine.SetActive(false); }
+            }
+            else if(dataHolder.presentNine == true && gameDate.dateInInt >= 9)
+            {
+                presentNineOpened.SetActive(true);
+                presentNine.SetActive(false);
+                presentTen.SetActive(true);
             }
         }
     }
@@ -422,14 +482,22 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
         {
 
-            if (isSpawned10 == true)
+            if (isSpawned10 == true && dataHolder.presentTen == false)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 10)
                 {
-                    Instantiate(presentTen, spawnPointTen.transform.position, Quaternion.identity);
+                    presentTen.SetActive(true);
+                    //Instantiate(presentTen, spawnPointTen.transform.position, Quaternion.identity);
                     isSpawned10 = false;
                 }
+                else { presentTen.SetActive(false); }
+            }
+            else if (dataHolder.presentTen == true && gameDate.dateInInt >= 10)
+            {
+                presentTenOpened.SetActive(true);
+                presentTen.SetActive(false);
+                present11.SetActive(true);
             }
         }
     }
@@ -438,14 +506,22 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
         {
 
-            if (isSpawned11 == true)
+            if (isSpawned11 == true && dataHolder.present11 == false)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 11)
                 {
-                    Instantiate(present11, spawnPoint11.transform.position, Quaternion.identity);
+                    present11.SetActive(true);
+                    //Instantiate(present11, spawnPoint11.transform.position, Quaternion.identity);
                     isSpawned11 = false;
                 }
+                else { present11.SetActive(false); }
+            }
+            else if (dataHolder.present11 == true && gameDate.dateInInt >= 11)
+            {
+                present11Opened.SetActive(true);
+                present11.SetActive(false);
+                present12.SetActive(true);
             }
         }
     }
@@ -454,14 +530,22 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
         {
 
-            if (isSpawned12 == true)
+            if (isSpawned12 == true && dataHolder.present12 == false)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 12)
                 {
-                    Instantiate(present12, spawnPoint12.transform.position, Quaternion.identity);
+                    present12.SetActive(true);
+                    //Instantiate(present12, spawnPoint12.transform.position, Quaternion.identity);
                     isSpawned12 = false;
                 }
+                else { present12.SetActive(false); }
+            }
+            else if (dataHolder.present12 == true && gameDate.dateInInt >= 12)
+            {
+                present12Opened.SetActive(true);
+                present12.SetActive(false);
+                present13.SetActive(true);
             }
         }
     }
@@ -470,14 +554,22 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
         {
 
-            if (isSpawned13 == true)
+            if (isSpawned13 == true && dataHolder.present13 == false)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 13)
                 {
-                    Instantiate(present13, spawnPoint13.transform.position, Quaternion.identity);
+                    present13.SetActive(true);
+                    //Instantiate(present13, spawnPoint13.transform.position, Quaternion.identity);
                     isSpawned13 = false;
                 }
+                else { present13.SetActive(false); }
+            }
+            else if (dataHolder.present13 == true && gameDate.dateInInt >= 13)
+            {
+                present13Opened.SetActive(true);
+                present13.SetActive(false);
+                present14.SetActive(true);
             }
         }
     }
@@ -486,14 +578,22 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
         {
 
-            if (isSpawned14 == true)
+            if (isSpawned14 == true && dataHolder.present14 == false)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 14)
                 {
-                    Instantiate(present14, spawnPoint14.transform.position, Quaternion.identity);
+                    present14.SetActive(true);
+                    //Instantiate(present14, spawnPoint14.transform.position, Quaternion.identity);
                     isSpawned14 = false;
                 }
+                else { present14.SetActive(false); }
+            }
+            else if(dataHolder.present14 == true && gameDate.dateInInt >= 14)
+            {
+                present14Opened.SetActive(true);
+                present14.SetActive(false);
+                present15.SetActive(true);
             }
         }
     }
@@ -502,14 +602,22 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
         {
 
-            if (isSpawned15 == true)
+            if (isSpawned15 == true && dataHolder.present15 == false)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 15)
                 {
-                    Instantiate(present15, spawnPoint15.transform.position, Quaternion.identity);
+                    present15.SetActive(true);
+                    //Instantiate(present15, spawnPoint15.transform.position, Quaternion.identity);
                     isSpawned15 = false;
                 }
+                else { present15.SetActive(false); }
+            }
+            else if (dataHolder.present15 == true && gameDate.dateInInt >= 15)
+            {
+                present15Opened.SetActive(true);
+                present15.SetActive(false);
+                present16.SetActive(true);
             }
         }
     }
@@ -518,14 +626,22 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
         {
 
-            if (isSpawned16 == true)
+            if (isSpawned16 == true && dataHolder.present16 == false)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 16)
                 {
-                    Instantiate(present16, spawnPoint16.transform.position, Quaternion.identity);
+                    present16.SetActive(true);
+                    //Instantiate(present16, spawnPoint16.transform.position, Quaternion.identity);
                     isSpawned16 = false;
                 }
+                else { present16.SetActive(false); }
+            }
+            else if (dataHolder.present16 == true && gameDate.dateInInt >= 16)
+            {
+                present16Opened.SetActive(true);
+                present16.SetActive(false);
+                present17.SetActive(true);
             }
         }
     }
@@ -534,14 +650,22 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
         {
 
-            if (isSpawned17 == true)
+            if (isSpawned17 == true && dataHolder.present17 == false)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 17)
                 {
-                    Instantiate(present17, spawnPoint17.transform.position, Quaternion.identity);
+                    present17.SetActive(true);
+                    //Instantiate(present17, spawnPoint17.transform.position, Quaternion.identity);
                     isSpawned17 = false;
                 }
+                else { present17.SetActive(false); }
+            }
+            else if (dataHolder.present17 == true && gameDate.dateInInt >= 17)
+            {
+                present17Opened.SetActive(true);
+                present17.SetActive(false);
+                present18.SetActive(true);
             }
         }
     }
@@ -550,14 +674,22 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
         {
 
-            if (isSpawned18 == true)
+            if (isSpawned18 == true && dataHolder.present18 == false)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 18)
                 {
-                    Instantiate(present18, spawnPoint18.transform.position, Quaternion.identity);
+                    present18.SetActive(true);
+                    //Instantiate(present18, spawnPoint18.transform.position, Quaternion.identity);
                     isSpawned18 = false;
                 }
+                else { present18.SetActive(false); }
+            }
+            else if (dataHolder.present18 == true && gameDate.dateInInt >= 18)
+            {
+                present18Opened.SetActive(true);
+                present18.SetActive(false);
+                present19.SetActive(true);
             }
         }
     }
@@ -566,14 +698,22 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
         {
 
-            if (isSpawned19 == true)
+            if (isSpawned19 == true && dataHolder.present19 == false)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 19)
                 {
-                    Instantiate(present19, spawnPoint19.transform.position, Quaternion.identity);
+                    present19.SetActive(true);
+                    //Instantiate(present19, spawnPoint19.transform.position, Quaternion.identity);
                     isSpawned19 = false;
                 }
+                else { present19.SetActive(false); }
+            }
+            else if (dataHolder.present19 == true && gameDate.dateInInt >= 19)
+            {
+                present19Opened.SetActive(true);
+                present19.SetActive(false);
+                present20.SetActive(true);
             }
         }
     }
@@ -582,14 +722,22 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
         {
 
-            if (isSpawned20 == true)
+            if (isSpawned20 == true && dataHolder.present20 == false)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 20)
                 {
-                    Instantiate(present20, spawnPoint20.transform.position, Quaternion.identity);
+                    present20.SetActive(true);
+                    //Instantiate(present20, spawnPoint20.transform.position, Quaternion.identity);
                     isSpawned20 = false;
                 }
+                else { present20.SetActive(false); }
+            }
+            else if (dataHolder.present20 == true && gameDate.dateInInt >= 20)
+            {
+                present20Opened.SetActive(true);
+                present20.SetActive(false);
+                present21.SetActive(true);
             }
         }
     }
@@ -598,14 +746,22 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
         {
 
-            if (isSpawned21 == true)
+            if (isSpawned21 == true && dataHolder.present21 == false)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 21)
                 {
-                    Instantiate(present21, spawnPoint21.transform.position, Quaternion.identity);
+                    present21.SetActive(true);
+                    //Instantiate(present21, spawnPoint21.transform.position, Quaternion.identity);
                     isSpawned21 = false;
                 }
+                else { present21.SetActive(false); }
+            }
+            else if (dataHolder.present21 == true && gameDate.dateInInt >= 21)
+            {
+                present21Opened.SetActive(true);
+                present21.SetActive(false);
+                present22.SetActive(true);
             }
         }
     }
@@ -614,14 +770,22 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
         {
 
-            if (isSpawned22 == true)
+            if (isSpawned22 == true && dataHolder.present22 == false)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 22)
                 {
-                    Instantiate(present22, spawnPoint22.transform.position, Quaternion.identity);
+                    present22.SetActive(true);
+                    //Instantiate(present22, spawnPoint22.transform.position, Quaternion.identity);
                     isSpawned22 = false;
                 }
+                else { present22.SetActive(false); }
+            }
+            else if (dataHolder.present22 == true && gameDate.dateInInt >= 22)
+            {
+                present22Opened.SetActive(true);
+                present22.SetActive(false);
+                present23.SetActive(true);
             }
         }
     }
@@ -630,14 +794,22 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
         {
 
-            if (isSpawned23 == true)
+            if (isSpawned23 == true && dataHolder.present23 == false)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 23)
                 {
-                    Instantiate(present23, spawnPoint23.transform.position, Quaternion.identity);
+                    present23.SetActive(true);
+                    //Instantiate(present23, spawnPoint23.transform.position, Quaternion.identity);
                     isSpawned23 = false;
                 }
+                else { present23.SetActive(false); }
+            }
+            else if (dataHolder.present23 == true && gameDate.dateInInt >= 23)
+            {
+                present23Opened.SetActive(true);
+                present23.SetActive(false);
+                present24.SetActive(true);
             }
         }
     }
@@ -646,14 +818,22 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
         {
 
-            if (isSpawned24 == true)
+            if (isSpawned24 == true && dataHolder.present24 == false)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 24)
                 {
-                    Instantiate(present24, spawnPoint24.transform.position, Quaternion.identity);
+                    present24.SetActive(true);
+                    //Instantiate(present24, spawnPoint24.transform.position, Quaternion.identity);
                     isSpawned24 = false;
                 }
+                else { present24.SetActive(false); }
+            }
+            else if (dataHolder.present24 == true && gameDate.dateInInt >= 24)
+            {
+                present24Opened.SetActive(true);
+                present24.SetActive(false);
+                
             }
         }
     }

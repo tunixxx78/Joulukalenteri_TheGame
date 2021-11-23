@@ -41,14 +41,77 @@ public class DataHolder : MonoBehaviour
             presentTwo = false;
             presentThree = false;
             presentFour = false;
+            presentFive = false;
+            presentSix = false;
+            presentSeven = false;
+            presentEight = false;
+            presentNine = false;
+            presentTen = false;
+            present11 = false;
+            present12 = false;
+            present13 = false;
+            present14 = false;
+            present15 = false;
+            present16 = false;
+            present17 = false;
+            present18 = false;
+            present19 = false;
+            present20 = false;
+            present21 = false;
+            present22 = false;
+            present23 = false;
+            present24 = false;
+            
+
             presentOneOpened = false;
             presentTwoOpened = false;
             presentThreeOpened = false;
             presentFourOpened = false;
+            presentFiveOpened = false;
+            presentSixOpened = false;
+            presentSevenOpened = false;
+            presentEightOpened = false;
+            presentNineOpened = false;
+            presentTenOpened = false;
+            present11Opened = false;
+            present12Opened = false;
+            present13Opened = false;
+            present14Opened = false;
+            present15Opened = false;
+            present16Opened = false;
+            present17Opened = false;
+            present18Opened = false;
+            present19Opened = false;
+            present20Opened = false;
+            present21Opened = false;
+            present22Opened = false;
+            present23Opened = false;
+            present24Opened = false;
+
             presentTwoSpawned = false;
             presentThreeSpawned = false;
             presentFourSpawned = false;
             presentFiveSpawned = false;
+            presentSixSpawned = false;
+            presentSevenSpawned = false;
+            presentEightSpawned = false;
+            presentNineSpawned = false;
+            presentTenSpawned = false;
+            present11Spawned = false;
+            present12Spawned = false;
+            present13Spawned = false;
+            present14Spawned = false;
+            present15Spawned = false;
+            present16Spawned = false;
+            present17Spawned = false;
+            present18Spawned = false;
+            present19Spawned = false;
+            present20Spawned = false;
+            present21Spawned = false;
+            present22Spawned = false;
+            present23Spawned = false;
+            present24Spawned = false;
+
 
             SaveData();
         }
