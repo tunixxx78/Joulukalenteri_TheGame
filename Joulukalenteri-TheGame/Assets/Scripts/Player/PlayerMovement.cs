@@ -8,9 +8,14 @@ public class PlayerMovement : MonoBehaviour
     public NavMeshAgent playerNavMeshAgent;
     public Camera playerCamera;
     [SerializeField] Animator playerAnimator;
-    
-     
+    SfxManager sfxManager;
 
+
+
+    private void Awake()
+    {
+        sfxManager = FindObjectOfType<SfxManager>();
+    }
 
     private void Update()
     {
@@ -23,12 +28,22 @@ public class PlayerMovement : MonoBehaviour
             if(Physics.Raycast(myRay, out myRaycastHit))
             {
                 playerNavMeshAgent.SetDestination(myRaycastHit.point);
-                playerAnimator.SetBool("Walk", true);
+                
             }
            
             
         }
-        else { playerAnimator.SetBool("Walk", false); }
+        if (playerNavMeshAgent.remainingDistance > playerNavMeshAgent.stoppingDistance)
+        {
+            playerAnimator.SetBool("Walk", true);
+            //sfxManager.Walk();
+        }
+        else
+        {
+            playerAnimator.SetBool("Walk", false);
+            
+        }
+        
         
 
 

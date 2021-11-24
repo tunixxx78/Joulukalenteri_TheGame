@@ -259,7 +259,8 @@ public class GameManager : MonoBehaviour
                 
                 presentOneOpened.SetActive(true);
                 presentOne.SetActive(false);
-                presentTwo.SetActive(true);
+                if (dataHolder.presentTwo == false) { presentTwo.SetActive(true); }
+                
             }
         }
         
@@ -272,13 +273,14 @@ public class GameManager : MonoBehaviour
         {
             //presentTwo.SetActive(false);
 
-            if (isSpawned2 == true && dataHolder.presentTwo == false)
+            if (isSpawned && dataHolder.presentTwo == false)
             {
+                Debug.Log("VOIHAN VITTU!");
                 if (gameDate.dateInInt >= 2)
                 {
                     presentTwo.SetActive(true);
                     //Instantiate(presentTwo, spawnPointTwo.transform.position, Quaternion.identity);
-                    isSpawned2 = true;
+                    isSpawned = false;
                 }
                 else
                 {
@@ -290,7 +292,7 @@ public class GameManager : MonoBehaviour
                 
                 presentTwoOpened.SetActive(true);
                 presentTwo.SetActive(false);
-                presentThree.SetActive(true);
+                if (dataHolder.presentThree == false) { presentThree.SetActive(true); }
             }
 
         }
@@ -321,7 +323,7 @@ public class GameManager : MonoBehaviour
                 
                 presentThreeOpened.SetActive(true);
                 presentThree.SetActive(false);
-                presentFour.SetActive(true);
+                if (dataHolder.presentFour == false) { presentFour.SetActive(true); }
             }
         }
     }
@@ -349,7 +351,7 @@ public class GameManager : MonoBehaviour
                 Debug.Log("PERSEEEEEEEEE");
                 presentFourOpened.SetActive(true);
                 presentFour.SetActive(false);
-                presentFive.SetActive(true);
+                if (dataHolder.presentFive == false) { presentFive.SetActive(true); }
             }
         }
         
@@ -377,7 +379,7 @@ public class GameManager : MonoBehaviour
             {
                 presentFiveOpened.SetActive(true);
                 presentFive.SetActive(false);
-                presentSix.SetActive(true);
+                if (dataHolder.presentSix == false) { presentSix.SetActive(true); }
             }
         }
     }
@@ -401,7 +403,7 @@ public class GameManager : MonoBehaviour
             {
                 presentSixOpened.SetActive(true);
                 presentSix.SetActive(false);
-                presentSeven.SetActive(true);
+                if (dataHolder.presentSeven == false) { presentSeven.SetActive(true); }
             }
         }
     }
@@ -425,7 +427,7 @@ public class GameManager : MonoBehaviour
             {
                 presentSevenOpened.SetActive(true);
                 presentSeven.SetActive(false);
-                presentEight.SetActive(true);
+                if (dataHolder.presentEight == false) { presentEight.SetActive(true); }
             }
         }
     }
@@ -449,7 +451,7 @@ public class GameManager : MonoBehaviour
             {
                 presentEightOpened.SetActive(true);
                 presentEight.SetActive(false);
-                presentNine.SetActive(true);
+                if (dataHolder.presentNine == false) { presentNine.SetActive(true); }
             }
         }
     }
@@ -473,7 +475,7 @@ public class GameManager : MonoBehaviour
             {
                 presentNineOpened.SetActive(true);
                 presentNine.SetActive(false);
-                presentTen.SetActive(true);
+                if (dataHolder.presentTen == false) { presentTen.SetActive(true); }
             }
         }
     }
@@ -497,7 +499,7 @@ public class GameManager : MonoBehaviour
             {
                 presentTenOpened.SetActive(true);
                 presentTen.SetActive(false);
-                present11.SetActive(true);
+                if (dataHolder.present11 == false) { present11.SetActive(true); }
             }
         }
     }
@@ -521,7 +523,7 @@ public class GameManager : MonoBehaviour
             {
                 present11Opened.SetActive(true);
                 present11.SetActive(false);
-                present12.SetActive(true);
+                if (dataHolder.present12 == false) { present12.SetActive(true); }
             }
         }
     }
@@ -545,7 +547,7 @@ public class GameManager : MonoBehaviour
             {
                 present12Opened.SetActive(true);
                 present12.SetActive(false);
-                present13.SetActive(true);
+                if (dataHolder.present13 == false) { present13.SetActive(true); }
             }
         }
     }
@@ -569,7 +571,7 @@ public class GameManager : MonoBehaviour
             {
                 present13Opened.SetActive(true);
                 present13.SetActive(false);
-                present14.SetActive(true);
+                if (dataHolder.present14 == false) { present14.SetActive(true); }
             }
         }
     }
@@ -593,7 +595,7 @@ public class GameManager : MonoBehaviour
             {
                 present14Opened.SetActive(true);
                 present14.SetActive(false);
-                present15.SetActive(true);
+                if (dataHolder.present15 == false) { present15.SetActive(true); }
             }
         }
     }
@@ -617,7 +619,7 @@ public class GameManager : MonoBehaviour
             {
                 present15Opened.SetActive(true);
                 present15.SetActive(false);
-                present16.SetActive(true);
+                if (dataHolder.present16 == false) { present16.SetActive(true); }
             }
         }
     }
@@ -641,7 +643,7 @@ public class GameManager : MonoBehaviour
             {
                 present16Opened.SetActive(true);
                 present16.SetActive(false);
-                present17.SetActive(true);
+                if (dataHolder.present17 == false) { present17.SetActive(true); }
             }
         }
     }
@@ -665,7 +667,7 @@ public class GameManager : MonoBehaviour
             {
                 present17Opened.SetActive(true);
                 present17.SetActive(false);
-                present18.SetActive(true);
+                if (dataHolder.present18 == false) { present18.SetActive(true); }
             }
         }
     }
@@ -689,7 +691,7 @@ public class GameManager : MonoBehaviour
             {
                 present18Opened.SetActive(true);
                 present18.SetActive(false);
-                present19.SetActive(true);
+                if (dataHolder.present19 == false) { present19.SetActive(true); }
             }
         }
     }
@@ -713,7 +715,7 @@ public class GameManager : MonoBehaviour
             {
                 present19Opened.SetActive(true);
                 present19.SetActive(false);
-                present20.SetActive(true);
+                if (dataHolder.present20 == false) { present20.SetActive(true); }
             }
         }
     }
@@ -737,7 +739,7 @@ public class GameManager : MonoBehaviour
             {
                 present20Opened.SetActive(true);
                 present20.SetActive(false);
-                present21.SetActive(true);
+                if (dataHolder.present21 == false) { present21.SetActive(true); }
             }
         }
     }
@@ -761,7 +763,7 @@ public class GameManager : MonoBehaviour
             {
                 present21Opened.SetActive(true);
                 present21.SetActive(false);
-                present22.SetActive(true);
+                if (dataHolder.present22 == false) { present22.SetActive(true); }
             }
         }
     }
@@ -785,7 +787,7 @@ public class GameManager : MonoBehaviour
             {
                 present22Opened.SetActive(true);
                 present22.SetActive(false);
-                present23.SetActive(true);
+                if (dataHolder.present23 == false) { present23.SetActive(true); }
             }
         }
     }
@@ -809,7 +811,7 @@ public class GameManager : MonoBehaviour
             {
                 present23Opened.SetActive(true);
                 present23.SetActive(false);
-                present24.SetActive(true);
+                if (dataHolder.present24 == false) { present24.SetActive(true); }
             }
         }
     }
