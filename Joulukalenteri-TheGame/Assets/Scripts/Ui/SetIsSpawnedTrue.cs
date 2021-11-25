@@ -6,6 +6,7 @@ public class SetIsSpawnedTrue : MonoBehaviour
 {
     GameManager gameManager;
 
+
     private void Awake()
     {
         gameManager = FindObjectOfType<GameManager>();

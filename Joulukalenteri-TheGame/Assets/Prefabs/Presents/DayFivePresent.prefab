@@ -3190,7 +3190,7 @@ RectTransform:
   m_GameObject: {fileID: 5734217229246812772}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.81395817, y: 0.81395817, z: 0.81395817}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 2359263884943622289}
   m_RootOrder: 1
@@ -3198,7 +3198,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 512, y: 512}
+  m_SizeDelta: {x: 453, y: 794}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7918676766326714113
 CanvasRenderer:
@@ -3228,7 +3228,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1774990debb00409ebe353325e89a9d2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fefd332c1cb7b40b986bf6e0a8c71d1f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3811,7 +3811,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7141946355994774164}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.0538445, y: 0.8282911, z: 1.0306206}

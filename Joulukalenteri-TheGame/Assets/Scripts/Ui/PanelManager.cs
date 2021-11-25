@@ -188,7 +188,7 @@ public class PanelManager : MonoBehaviour
     }
     void present14()
     {
-        if (DataHolder.dataInstance.presentFour == true)
+        if (DataHolder.dataInstance.present14 == true)
         {
             Day14.SetActive(true);
         }
@@ -199,7 +199,7 @@ public class PanelManager : MonoBehaviour
     }
     void present15()
     {
-        if (DataHolder.dataInstance.presentFour == true)
+        if (DataHolder.dataInstance.present15 == true)
         {
             Day15.SetActive(true);
         }
@@ -210,7 +210,7 @@ public class PanelManager : MonoBehaviour
     }
     void present16()
     {
-        if (DataHolder.dataInstance.presentFour == true)
+        if (DataHolder.dataInstance.present16 == true)
         {
             Day16.SetActive(true);
         }
@@ -221,7 +221,7 @@ public class PanelManager : MonoBehaviour
     }
     void present17()
     {
-        if (DataHolder.dataInstance.presentFour == true)
+        if (DataHolder.dataInstance.present17 == true)
         {
             Day17.SetActive(true);
         }
@@ -232,7 +232,7 @@ public class PanelManager : MonoBehaviour
     }
     void present18()
     {
-        if (DataHolder.dataInstance.presentFour == true)
+        if (DataHolder.dataInstance.present18 == true)
         {
             Day18.SetActive(true);
         }
@@ -243,7 +243,7 @@ public class PanelManager : MonoBehaviour
     }
     void present19()
     {
-        if (DataHolder.dataInstance.presentFour == true)
+        if (DataHolder.dataInstance.present19 == true)
         {
             Day19.SetActive(true);
         }
@@ -254,7 +254,7 @@ public class PanelManager : MonoBehaviour
     }
     void present20()
     {
-        if (DataHolder.dataInstance.presentFour == true)
+        if (DataHolder.dataInstance.present20 == true)
         {
             Day20.SetActive(true);
         }
@@ -265,7 +265,7 @@ public class PanelManager : MonoBehaviour
     }
     void present21()
     {
-        if (DataHolder.dataInstance.presentFour == true)
+        if (DataHolder.dataInstance.present21 == true)
         {
             Day21.SetActive(true);
         }
@@ -276,7 +276,7 @@ public class PanelManager : MonoBehaviour
     }
     void present22()
     {
-        if (DataHolder.dataInstance.presentFour == true)
+        if (DataHolder.dataInstance.present22 == true)
         {
             Day22.SetActive(true);
         }
@@ -287,7 +287,7 @@ public class PanelManager : MonoBehaviour
     }
     void present23()
     {
-        if (DataHolder.dataInstance.presentFour == true)
+        if (DataHolder.dataInstance.present23 == true)
         {
             Day23.SetActive(true);
         }
@@ -298,7 +298,7 @@ public class PanelManager : MonoBehaviour
     }
     void present24()
     {
-        if (DataHolder.dataInstance.presentFour == true)
+        if (DataHolder.dataInstance.present24 == true)
         {
             Day24.SetActive(true);
         }

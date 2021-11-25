@@ -17,6 +17,9 @@ public class GameManager : MonoBehaviour
     bool isSpawned = true, isSpawned2 = false, isSpawned3 = false, isSpawned4 = false, isSpawned5 = false, isSpawned6 = false, isSpawned7 = false, isSpawned8 = false, isSpawned9 = false, isSpawned10 = false, isSpawned11 = false, isSpawned12 = false, isSpawned13 = false,
         isSpawned14 = false, isSpawned15 = false, isSpawned16 = false, isSpawned17 = false, isSpawned18 = false, isSpawned19 = false, isSpawned20 = false, isSpawned21 = false, isSpawned22 = false, isSpawned23 = false, isSpawned24 = false;
 
+    [SerializeField] float maxDay = 30;
+
+    [SerializeField] GameObject waitForNextDay;
     DataHolder dataHolder;
 
     private void Awake()
@@ -56,6 +59,7 @@ public class GameManager : MonoBehaviour
     public void StartGameNow()
     {
         SceneManager.LoadScene("GameLevel");
+        Time.timeScale = 0;
     }
 
     public void ReturnToMainMenu()
@@ -68,6 +72,11 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.presentTwoSpawned == false)
         {
             isSpawned2 = true;
+            if(gameDate.dateInInt <= 1)
+            {
+                waitForNextDay.SetActive(true);
+                Time.timeScale = 0;
+            }
         }
         
     }
@@ -76,6 +85,11 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.presentThreeSpawned == false)
         {
             isSpawned3 = true;
+            if (gameDate.dateInInt <= 2)
+            {
+                waitForNextDay.SetActive(true);
+                Time.timeScale = 0;
+            }
         }
 
     }
@@ -84,6 +98,11 @@ public class GameManager : MonoBehaviour
         if(DataHolder.dataInstance.presentFourSpawned == false)
         {
             isSpawned4 = true;
+            if (gameDate.dateInInt <= 3)
+            {
+                waitForNextDay.SetActive(true);
+                Time.timeScale = 0;
+            }
         }
     }
     public void PresentFiveSpawned()
@@ -91,6 +110,11 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.presentFiveSpawned == false)
         {
             isSpawned5 = true;
+            if (gameDate.dateInInt <= 4)
+            {
+                waitForNextDay.SetActive(true);
+                Time.timeScale = 0;
+            }
         }
     }
     public void PresentSixSpawned()
@@ -98,6 +122,11 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.presentSixSpawned == false)
         {
             isSpawned6 = true;
+            if (gameDate.dateInInt <= 5)
+            {
+                waitForNextDay.SetActive(true);
+                Time.timeScale = 0;
+            }
         }
     }
     public void PresentSevenSpawned()
@@ -105,6 +134,11 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.presentSevenSpawned == false)
         {
             isSpawned7 = true;
+            if (gameDate.dateInInt <= 6)
+            {
+                waitForNextDay.SetActive(true);
+                Time.timeScale = 0;
+            }
         }
     }
     public void PresentEightSpawned()
@@ -112,6 +146,11 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.presentEightSpawned == false)
         {
             isSpawned8 = true;
+            if (gameDate.dateInInt <= 7)
+            {
+                waitForNextDay.SetActive(true);
+                Time.timeScale = 0;
+            }
         }
     }
     public void PresentNineSpawned()
@@ -119,6 +158,11 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.presentNineSpawned == false)
         {
             isSpawned9 = true;
+            if (gameDate.dateInInt <= 8)
+            {
+                waitForNextDay.SetActive(true);
+                Time.timeScale = 0;
+            }
         }
     }
     public void PresentTenSpawned()
@@ -126,6 +170,11 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.presentTenSpawned == false)
         {
             isSpawned10 = true;
+            if (gameDate.dateInInt <= 9)
+            {
+                waitForNextDay.SetActive(true);
+                Time.timeScale = 0;
+            }
         }
     }
     public void Present11Spawned()
@@ -133,6 +182,11 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.present11Spawned == false)
         {
             isSpawned11 = true;
+            if (gameDate.dateInInt <= 10)
+            {
+                waitForNextDay.SetActive(true);
+                Time.timeScale = 0;
+            }
         }
     }
     public void Present12Spawned()
@@ -140,6 +194,11 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.present12Spawned == false)
         {
             isSpawned12 = true;
+            if (gameDate.dateInInt <= 11)
+            {
+                waitForNextDay.SetActive(true);
+                Time.timeScale = 0;
+            }
         }
     }
     public void Present13Spawned()
@@ -147,6 +206,11 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.present13Spawned == false)
         {
             isSpawned13 = true;
+            if (gameDate.dateInInt <= 12)
+            {
+                waitForNextDay.SetActive(true);
+                Time.timeScale = 0;
+            }
         }
     }
     public void Present14Spawned()
@@ -154,6 +218,11 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.present14Spawned == false)
         {
             isSpawned14 = true;
+            if (gameDate.dateInInt <= 13)
+            {
+                waitForNextDay.SetActive(true);
+                Time.timeScale = 0;
+            }
         }
     }
     public void Present15Spawned()
@@ -161,6 +230,11 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.present15Spawned == false)
         {
             isSpawned15 = true;
+            if (gameDate.dateInInt <= 14)
+            {
+                waitForNextDay.SetActive(true);
+                Time.timeScale = 0;
+            }
         }
     }
     public void Present16Spawned()
@@ -168,6 +242,11 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.present16Spawned == false)
         {
             isSpawned16 = true;
+            if (gameDate.dateInInt <= 15)
+            {
+                waitForNextDay.SetActive(true);
+                Time.timeScale = 0;
+            }
         }
     }
     public void Present17Spawned()
@@ -175,6 +254,11 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.present17Spawned == false)
         {
             isSpawned17 = true;
+            if (gameDate.dateInInt <= 16)
+            {
+                waitForNextDay.SetActive(true);
+                Time.timeScale = 0;
+            }
         }
     }
     public void Present18Spawned()
@@ -182,6 +266,11 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.present18Spawned == false)
         {
             isSpawned18 = true;
+            if (gameDate.dateInInt <= 17)
+            {
+                waitForNextDay.SetActive(true);
+                Time.timeScale = 0;
+            }
         }
     }
     public void Present19Spawned()
@@ -189,6 +278,11 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.present19Spawned == false)
         {
             isSpawned19 = true;
+            if (gameDate.dateInInt <= 18)
+            {
+                waitForNextDay.SetActive(true);
+                Time.timeScale = 0;
+            }
         }
     }
     public void Present20Spawned()
@@ -196,6 +290,11 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.present20Spawned == false)
         {
             isSpawned20 = true;
+            if (gameDate.dateInInt <= 19)
+            {
+                waitForNextDay.SetActive(true);
+                Time.timeScale = 0;
+            }
         }
     }
     public void Present21Spawned()
@@ -203,6 +302,11 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.present21Spawned == false)
         {
             isSpawned21 = true;
+            if (gameDate.dateInInt <= 20)
+            {
+                waitForNextDay.SetActive(true);
+                Time.timeScale = 0;
+            }
         }
     }
     public void Present22Spawned()
@@ -210,6 +314,11 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.present22Spawned == false)
         {
             isSpawned22 = true;
+            if (gameDate.dateInInt <= 21)
+            {
+                waitForNextDay.SetActive(true);
+                Time.timeScale = 0;
+            }
         }
     }
     public void Present23Spawned()
@@ -217,6 +326,11 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.present23Spawned == false)
         {
             isSpawned23 = true;
+            if (gameDate.dateInInt <= 22)
+            {
+                waitForNextDay.SetActive(true);
+                Time.timeScale = 0;
+            }
         }
     }
     public void Present24Spawned()
@@ -224,6 +338,11 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.present24Spawned == false)
         {
             isSpawned4 = true;
+            if (gameDate.dateInInt <= 23)
+            {
+                waitForNextDay.SetActive(true);
+                Time.timeScale = 0;
+            }
         }
     }
 
@@ -236,7 +355,7 @@ public class GameManager : MonoBehaviour
 
     void DayOne()
     {
-        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
+        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
             
 
@@ -262,14 +381,16 @@ public class GameManager : MonoBehaviour
                 if (dataHolder.presentTwo == false) { presentTwo.SetActive(true); }
                 
             }
+            
         }
+        
         
         
         
     }
     void DayTwo()
     {
-        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
+        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
             //presentTwo.SetActive(false);
 
@@ -301,7 +422,7 @@ public class GameManager : MonoBehaviour
 
     void DayThree()
     {
-        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
+        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
             
             if (isSpawned3 == true && dataHolder.presentThree == false)
@@ -329,7 +450,7 @@ public class GameManager : MonoBehaviour
     }
     void DayFour()
     {
-        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
+        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
             if (isSpawned4 == true && dataHolder.presentFour == false)
@@ -358,7 +479,7 @@ public class GameManager : MonoBehaviour
     }
     void DayFive()
     {
-        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
+        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
             if (isSpawned5 == true && dataHolder.presentFive == false)
@@ -385,7 +506,7 @@ public class GameManager : MonoBehaviour
     }
     void DaySix()
     {
-        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
+        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
             if (isSpawned6 == true && dataHolder.presentSix == false)
@@ -409,7 +530,7 @@ public class GameManager : MonoBehaviour
     }
     void DaySeven()
     {
-        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
+        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
             if (isSpawned7 == true && dataHolder.presentSeven == false)
@@ -433,7 +554,7 @@ public class GameManager : MonoBehaviour
     }
     void DayEight()
     {
-        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
+        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
             if (isSpawned8 == true && dataHolder.presentEight == false)
@@ -457,7 +578,7 @@ public class GameManager : MonoBehaviour
     }
     void DayNine()
     {
-        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
+        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
             if (isSpawned9 == true && dataHolder.presentNine == false)
@@ -481,7 +602,7 @@ public class GameManager : MonoBehaviour
     }
     void DayTen()
     {
-        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
+        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
             if (isSpawned10 == true && dataHolder.presentTen == false)
@@ -505,7 +626,7 @@ public class GameManager : MonoBehaviour
     }
     void Day11()
     {
-        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
+        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
             if (isSpawned11 == true && dataHolder.present11 == false)
@@ -529,7 +650,7 @@ public class GameManager : MonoBehaviour
     }
     void Day12()
     {
-        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
+        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
             if (isSpawned12 == true && dataHolder.present12 == false)
@@ -553,7 +674,7 @@ public class GameManager : MonoBehaviour
     }
     void Day13()
     {
-        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
+        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
             if (isSpawned13 == true && dataHolder.present13 == false)
@@ -577,7 +698,7 @@ public class GameManager : MonoBehaviour
     }
     void Day14()
     {
-        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
+        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
             if (isSpawned14 == true && dataHolder.present14 == false)
@@ -601,7 +722,7 @@ public class GameManager : MonoBehaviour
     }
     void Day15()
     {
-        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
+        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
             if (isSpawned15 == true && dataHolder.present15 == false)
@@ -625,7 +746,7 @@ public class GameManager : MonoBehaviour
     }
     void Day16()
     {
-        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
+        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
             if (isSpawned16 == true && dataHolder.present16 == false)
@@ -649,7 +770,7 @@ public class GameManager : MonoBehaviour
     }
     void Day17()
     {
-        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
+        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
             if (isSpawned17 == true && dataHolder.present17 == false)
@@ -673,7 +794,7 @@ public class GameManager : MonoBehaviour
     }
     void Day18()
     {
-        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
+        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
             if (isSpawned18 == true && dataHolder.present18 == false)
@@ -697,7 +818,7 @@ public class GameManager : MonoBehaviour
     }
     void Day19()
     {
-        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
+        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
             if (isSpawned19 == true && dataHolder.present19 == false)
@@ -721,7 +842,7 @@ public class GameManager : MonoBehaviour
     }
     void Day20()
     {
-        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
+        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
             if (isSpawned20 == true && dataHolder.present20 == false)
@@ -745,7 +866,7 @@ public class GameManager : MonoBehaviour
     }
     void Day21()
     {
-        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
+        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
             if (isSpawned21 == true && dataHolder.present21 == false)
@@ -769,7 +890,7 @@ public class GameManager : MonoBehaviour
     }
     void Day22()
     {
-        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
+        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
             if (isSpawned22 == true && dataHolder.present22 == false)
@@ -793,7 +914,7 @@ public class GameManager : MonoBehaviour
     }
     void Day23()
     {
-        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
+        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
             if (isSpawned23 == true && dataHolder.present23 == false)
@@ -817,7 +938,7 @@ public class GameManager : MonoBehaviour
     }
     void Day24()
     {
-        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= 24)
+        if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
             if (isSpawned24 == true && dataHolder.present24 == false)

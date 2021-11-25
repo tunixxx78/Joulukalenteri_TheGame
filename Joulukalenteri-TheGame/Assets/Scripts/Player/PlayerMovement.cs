@@ -49,15 +49,16 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-    private void OnCollisionEnter(Collision collision)
+    
+    private void OnTriggerEnter(Collider collider)
     {
-        if (collision.collider.CompareTag("Gift"))
+        if(collider.gameObject.tag == "Gift")
         {
             Debug.Log("PELAAJA OSUI LAHJAAN!");
             var target = FindObjectOfType<TargetIndicator>();
             Debug.Log(target);
 
-            if(target.gameObject.activeSelf == true)
+            if (target.gameObject.activeSelf == true)
             {
                 target.gameObject.SetActive(false);
 
@@ -65,13 +66,9 @@ public class PlayerMovement : MonoBehaviour
             }
             else
             {
-                
-            }
 
-            
-            
+            }
         }
-        
     }
 
 }

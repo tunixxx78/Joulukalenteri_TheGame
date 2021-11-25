@@ -25,16 +25,14 @@ public class PresentManager : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider collider)
     {
-        
-        if (collision.collider.CompareTag("Player"))
+        if(collider.gameObject.tag == "Player")
         {
             picture.SetActive(true);
-            
+
             Time.timeScale = 0;
             Destroy(presentCollider);
-            
         }
     }
 
