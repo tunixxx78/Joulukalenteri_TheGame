@@ -69,6 +69,11 @@ public class PlayerMovement : MonoBehaviour
 
             }
         }
+        if(collider.gameObject.tag == "moose")
+        {
+            Debug.Log("MOOSE FOUND");
+            sfxManager.Moose();
+        }
     }
 
 }

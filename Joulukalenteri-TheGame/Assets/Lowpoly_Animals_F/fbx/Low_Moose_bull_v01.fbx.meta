@@ -1,0 +1,1358 @@
+fileFormatVersion: 2
+guid: 32355c58d1ff4794381057cb17a96e8d
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Arm_Moose
+  - first:
+      1: 100002
+    second: Bone
+  - first:
+      1: 100004
+    second: Bone.001
+  - first:
+      1: 100006
+    second: Bone.002
+  - first:
+      1: 100008
+    second: Bone.003
+  - first:
+      1: 100010
+    second: Bone.004
+  - first:
+      1: 100012
+    second: Bone.004_end
+  - first:
+      1: 100014
+    second: Bone.005
+  - first:
+      1: 100016
+    second: Bone.006
+  - first:
+      1: 100018
+    second: Bone.007
+  - first:
+      1: 100020
+    second: Bone.008
+  - first:
+      1: 100022
+    second: Bone.009
+  - first:
+      1: 100024
+    second: Bone.010
+  - first:
+      1: 100026
+    second: Bone.010_end
+  - first:
+      1: 100028
+    second: Bone.011
+  - first:
+      1: 100030
+    second: Bone.012
+  - first:
+      1: 100032
+    second: Bone.012_end
+  - first:
+      1: 100034
+    second: Bone.013
+  - first:
+      1: 100036
+    second: Bone.014.L
+  - first:
+      1: 100038
+    second: Bone.014.R
+  - first:
+      1: 100040
+    second: Bone.015.L
+  - first:
+      1: 100042
+    second: Bone.015.R
+  - first:
+      1: 100044
+    second: Bone.0155.L
+  - first:
+      1: 100046
+    second: Bone.0155.L_end
+  - first:
+      1: 100048
+    second: Bone.0155.R
+  - first:
+      1: 100050
+    second: Bone.0155.R_end
+  - first:
+      1: 100052
+    second: Bone.016.L
+  - first:
+      1: 100054
+    second: Bone.016.L_end
+  - first:
+      1: 100056
+    second: Bone.016.R
+  - first:
+      1: 100058
+    second: Bone.016.R_end
+  - first:
+      1: 100060
+    second: Bone.017.L
+  - first:
+      1: 100062
+    second: Bone.017.R
+  - first:
+      1: 100064
+    second: Bone.018.L
+  - first:
+      1: 100066
+    second: Bone.018.R
+  - first:
+      1: 100068
+    second: Bone.019.L
+  - first:
+      1: 100070
+    second: Bone.019.R
+  - first:
+      1: 100072
+    second: Bone.0199.L
+  - first:
+      1: 100074
+    second: Bone.0199.L_end
+  - first:
+      1: 100076
+    second: Bone.0199.R
+  - first:
+      1: 100078
+    second: Bone.0199.R_end
+  - first:
+      1: 100080
+    second: Bone.020.L
+  - first:
+      1: 100082
+    second: Bone.020.L_end
+  - first:
+      1: 100084
+    second: Bone.020.R
+  - first:
+      1: 100086
+    second: Bone.020.R_end
+  - first:
+      1: 100088
+    second: Bone.021.L
+  - first:
+      1: 100090
+    second: Bone.021.R
+  - first:
+      1: 100092
+    second: Bone.022.L
+  - first:
+      1: 100094
+    second: Bone.022.L_end
+  - first:
+      1: 100096
+    second: Bone.022.R
+  - first:
+      1: 100098
+    second: Bone.022.R_end
+  - first:
+      1: 100100
+    second: //RootNode
+  - first:
+      1: 100102
+    second: Moose_low
+  - first:
+      4: 400000
+    second: Arm_Moose
+  - first:
+      4: 400002
+    second: Bone
+  - first:
+      4: 400004
+    second: Bone.001
+  - first:
+      4: 400006
+    second: Bone.002
+  - first:
+      4: 400008
+    second: Bone.003
+  - first:
+      4: 400010
+    second: Bone.004
+  - first:
+      4: 400012
+    second: Bone.004_end
+  - first:
+      4: 400014
+    second: Bone.005
+  - first:
+      4: 400016
+    second: Bone.006
+  - first:
+      4: 400018
+    second: Bone.007
+  - first:
+      4: 400020
+    second: Bone.008
+  - first:
+      4: 400022
+    second: Bone.009
+  - first:
+      4: 400024
+    second: Bone.010
+  - first:
+      4: 400026
+    second: Bone.010_end
+  - first:
+      4: 400028
+    second: Bone.011
+  - first:
+      4: 400030
+    second: Bone.012
+  - first:
+      4: 400032
+    second: Bone.012_end
+  - first:
+      4: 400034
+    second: Bone.013
+  - first:
+      4: 400036
+    second: Bone.014.L
+  - first:
+      4: 400038
+    second: Bone.014.R
+  - first:
+      4: 400040
+    second: Bone.015.L
+  - first:
+      4: 400042
+    second: Bone.015.R
+  - first:
+      4: 400044
+    second: Bone.0155.L
+  - first:
+      4: 400046
+    second: Bone.0155.L_end
+  - first:
+      4: 400048
+    second: Bone.0155.R
+  - first:
+      4: 400050
+    second: Bone.0155.R_end
+  - first:
+      4: 400052
+    second: Bone.016.L
+  - first:
+      4: 400054
+    second: Bone.016.L_end
+  - first:
+      4: 400056
+    second: Bone.016.R
+  - first:
+      4: 400058
+    second: Bone.016.R_end
+  - first:
+      4: 400060
+    second: Bone.017.L
+  - first:
+      4: 400062
+    second: Bone.017.R
+  - first:
+      4: 400064
+    second: Bone.018.L
+  - first:
+      4: 400066
+    second: Bone.018.R
+  - first:
+      4: 400068
+    second: Bone.019.L
+  - first:
+      4: 400070
+    second: Bone.019.R
+  - first:
+      4: 400072
+    second: Bone.0199.L
+  - first:
+      4: 400074
+    second: Bone.0199.L_end
+  - first:
+      4: 400076
+    second: Bone.0199.R
+  - first:
+      4: 400078
+    second: Bone.0199.R_end
+  - first:
+      4: 400080
+    second: Bone.020.L
+  - first:
+      4: 400082
+    second: Bone.020.L_end
+  - first:
+      4: 400084
+    second: Bone.020.R
+  - first:
+      4: 400086
+    second: Bone.020.R_end
+  - first:
+      4: 400088
+    second: Bone.021.L
+  - first:
+      4: 400090
+    second: Bone.021.R
+  - first:
+      4: 400092
+    second: Bone.022.L
+  - first:
+      4: 400094
+    second: Bone.022.L_end
+  - first:
+      4: 400096
+    second: Bone.022.R
+  - first:
+      4: 400098
+    second: Bone.022.R_end
+  - first:
+      4: 400100
+    second: //RootNode
+  - first:
+      4: 400102
+    second: Moose_low
+  - first:
+      43: 4300000
+    second: Moose_low
+  - first:
+      74: 7400000
+    second: Arm_Moose|attack_1
+  - first:
+      74: 7400002
+    second: Arm_Moose|attack_2
+  - first:
+      74: 7400004
+    second: Arm_Moose|die
+  - first:
+      74: 7400006
+    second: Arm_Moose|eat_1
+  - first:
+      74: 7400008
+    second: Arm_Moose|eat_2
+  - first:
+      74: 7400010
+    second: Arm_Moose|Hate
+  - first:
+      74: 7400012
+    second: Arm_Moose|hit_back
+  - first:
+      74: 7400014
+    second: Arm_Moose|hit_front
+  - first:
+      74: 7400016
+    second: Arm_Moose|hit_left
+  - first:
+      74: 7400018
+    second: Arm_Moose|hit_right
+  - first:
+      74: 7400020
+    second: Arm_Moose|idle_1
+  - first:
+      74: 7400022
+    second: Arm_Moose|idle_2
+  - first:
+      74: 7400024
+    second: Arm_Moose|run
+  - first:
+      74: 7400026
+    second: Arm_Moose|run_attack
+  - first:
+      74: 7400028
+    second: Arm_Moose|sleep_end
+  - first:
+      74: 7400030
+    second: Arm_Moose|sleep_idle
+  - first:
+      74: 7400032
+    second: Arm_Moose|sleep_start
+  - first:
+      74: 7400034
+    second: Arm_Moose|walk_1
+  - first:
+      74: 7400036
+    second: Arm_Moose|walk_back
+  - first:
+      74: 7400038
+    second: Arm_Moose|walk_slow
+  - first:
+      74: 7400040
+    second: Arm_Moose|walk_wounded
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Moose_low
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Arm_Moose|attack_1
+      takeName: Arm_Moose|attack_1
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arm_Moose|attack_2
+      takeName: Arm_Moose|attack_2
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arm_Moose|die
+      takeName: Arm_Moose|die
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arm_Moose|eat_1
+      takeName: Arm_Moose|eat_1
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arm_Moose|eat_2
+      takeName: Arm_Moose|eat_2
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 204
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arm_Moose|Hate
+      takeName: Arm_Moose|Hate
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arm_Moose|hit_back
+      takeName: Arm_Moose|hit_back
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arm_Moose|hit_front
+      takeName: Arm_Moose|hit_front
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arm_Moose|hit_left
+      takeName: Arm_Moose|hit_left
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arm_Moose|hit_right
+      takeName: Arm_Moose|hit_right
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arm_Moose|idle_1
+      takeName: Arm_Moose|idle_1
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arm_Moose|idle_2
+      takeName: Arm_Moose|idle_2
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arm_Moose|run
+      takeName: Arm_Moose|run
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arm_Moose|run_attack
+      takeName: Arm_Moose|run_attack
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arm_Moose|sleep_end
+      takeName: Arm_Moose|sleep_end
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arm_Moose|sleep_idle
+      takeName: Arm_Moose|sleep_idle
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arm_Moose|sleep_start
+      takeName: Arm_Moose|sleep_start
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arm_Moose|walk_1
+      takeName: Arm_Moose|walk_1
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arm_Moose|walk_back
+      takeName: Arm_Moose|walk_back
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arm_Moose|walk_slow
+      takeName: Arm_Moose|walk_slow
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arm_Moose|walk_wounded
+      takeName: Arm_Moose|walk_wounded
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Low_Moose_bull_v01(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm_Moose
+      parentName: Low_Moose_bull_v01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone
+      parentName: Arm_Moose
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: Bone.013
+      parentName: Bone
+      position: {x: -0, y: 1.6094642, z: 0}
+      rotation: {x: -0, y: -0.00000011920928, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Bone.001
+      parentName: Bone.013
+      position: {x: -0, y: -0.21623167, z: 0}
+      rotation: {x: -0.99520266, y: -0.022508653, z: -0.021981945, w: 0.092637844}
+      scale: {x: 0.9999995, y: 0.99999994, z: 1}
+    - name: Bone.002
+      parentName: Bone.001
+      position: {x: -1.8651745e-14, y: 0.2673887, z: -0.00000004470348}
+      rotation: {x: 0.01550492, y: -0.001109888, z: -0.05117535, w: 0.9985687}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000001}
+    - name: Bone.003
+      parentName: Bone.002
+      position: {x: 4.1633358e-16, y: 0.25839257, z: -0.000000025611367}
+      rotation: {x: -0.14646234, y: 0.000000117923776, z: -0.000000020742583, w: 0.9892163}
+      scale: {x: 1, y: 1.0000007, z: 1.0000006}
+    - name: Bone.004
+      parentName: Bone.003
+      position: {x: 6.217248e-14, y: 0.25221273, z: -0.000000059604634}
+      rotation: {x: 0.4177688, y: -1.4210851e-14, z: 0.000000108967924, w: -0.9085534}
+      scale: {x: 1, y: 0.99999994, z: 0.9999998}
+    - name: Bone.004_end
+      parentName: Bone.004
+      position: {x: -0, y: 0.13167657, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.018.R
+      parentName: Bone.002
+      position: {x: -0.14823604, y: 0.36245713, z: -0.09112104}
+      rotation: {x: 0.45665956, y: 0.062842466, z: -0.14923626, w: -0.8747808}
+      scale: {x: 1, y: 1.0000006, z: 1.0000004}
+    - name: Bone.019.R
+      parentName: Bone.018.R
+      position: {x: -0.000000014901159, y: 0.31990817, z: 0.000000042840835}
+      rotation: {x: 0.567891, y: 0.026347712, z: -0.1272307, w: 0.8127841}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Bone.020.R
+      parentName: Bone.019.R
+      position: {x: -0.000000013038514, y: 0.54483014, z: 0.000000016822012}
+      rotation: {x: -0.0423499, y: 0.95082515, z: -0.30651549, w: 0.013652103}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.9999993}
+    - name: Bone.020.R_end
+      parentName: Bone.020.R
+      position: {x: -0, y: 0.41460282, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.018.L
+      parentName: Bone.002
+      position: {x: 0.148236, y: 0.36245713, z: -0.09112104}
+      rotation: {x: 0.90331984, y: 0.08939947, z: -0.016696217, w: -0.41921622}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000004}
+    - name: Bone.019.L
+      parentName: Bone.018.L
+      position: {x: 0.000000100582824, y: 0.31990814, z: 0.00000006891786}
+      rotation: {x: 0.5781967, y: 0.060185928, z: 0.06615356, w: 0.8109808}
+      scale: {x: 0.99999994, y: 0.9999995, z: 0.99999964}
+    - name: Bone.020.L
+      parentName: Bone.019.L
+      position: {x: -0.000000039115545, y: 0.5448301, z: -0.000000032829117}
+      rotation: {x: 0.042350058, y: 0.95082515, z: -0.30651537, w: -0.013652438}
+      scale: {x: 1.0000007, y: 1.0000005, z: 0.9999998}
+    - name: Bone.020.L_end
+      parentName: Bone.020.L
+      position: {x: -0, y: 0.41460282, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.005
+      parentName: Bone.013
+      position: {x: -0, y: -0.21623167, z: 0}
+      rotation: {x: -0.00000023047517, y: 0.97460234, z: 0.22394276, w: -0.0000012353967}
+      scale: {x: 0.99999976, y: 1.0000004, z: 1}
+    - name: Bone.006
+      parentName: Bone.005
+      position: {x: 2.2400091e-13, y: 0.26266485, z: 0.00000004097819}
+      rotation: {x: 0.07775153, y: -0.0000009507992, z: 0.000000104453626, w: 0.99697274}
+      scale: {x: 1.0000001, y: 1, z: 0.9999998}
+    - name: Bone.007
+      parentName: Bone.006
+      position: {x: 2.0492392e-14, y: 0.25988334, z: 0.000000022351738}
+      rotation: {x: -0.19462994, y: -0.00000050166244, z: 0.00000002345076, w: 0.9808768}
+      scale: {x: 1.0000007, y: 0.9999999, z: 0.99999964}
+    - name: Bone.008
+      parentName: Bone.007
+      position: {x: 8.622268e-14, y: 0.2661648, z: -0.000000029802319}
+      rotation: {x: 0.19435464, y: 0.0000007324322, z: 0.000000022587157, w: 0.9809314}
+      scale: {x: 0.9999999, y: 1, z: 1.0000001}
+    - name: Bone.009
+      parentName: Bone.008
+      position: {x: 3.1266558e-14, y: 0.27770552, z: -0.00000012665986}
+      rotation: {x: -0.14231965, y: 0.00000023913753, z: -0.00000015704917, w: 0.9898208}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: Bone.010
+      parentName: Bone.009
+      position: {x: 0.000000040511406, y: 0.2167359, z: -0.034364697}
+      rotation: {x: -0.19402155, y: 0.000000089274415, z: -0.00000028518988, w: 0.98099726}
+      scale: {x: 1.0000007, y: 1.0000006, z: 0.9999998}
+    - name: Bone.010_end
+      parentName: Bone.010
+      position: {x: -0, y: 0.29369354, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.011
+      parentName: Bone.009
+      position: {x: 0.00000024339914, y: 0.1498497, z: -0.18657006}
+      rotation: {x: -0.7382917, y: 0.00000007160395, z: -0.0000010800733, w: 0.6744816}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1}
+    - name: Bone.012
+      parentName: Bone.011
+      position: {x: -1.12354557e-13, y: 0.13889627, z: 0.000000096857526}
+      rotation: {x: 0.00000006598656, y: -0.9983151, z: -0.05802601, w: -0.000000551405}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: Bone.012_end
+      parentName: Bone.012
+      position: {x: -0, y: 0.139453, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.022.R
+      parentName: Bone.009
+      position: {x: 0.10615669, y: -0.038827654, z: 0.181949}
+      rotation: {x: -0.10793576, y: -0.049746376, z: -0.80965537, w: 0.5747464}
+      scale: {x: 1.0000005, y: 1, z: 1.0000007}
+    - name: Bone.022.R_end
+      parentName: Bone.022.R
+      position: {x: -0, y: 0.22494671, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.022.L
+      parentName: Bone.009
+      position: {x: -0.10615718, y: -0.038827654, z: 0.18194883}
+      rotation: {x: 0.18120764, y: -0.15382065, z: 0.7964645, w: 0.55601007}
+      scale: {x: 1, y: 1.0000002, z: 1.000001}
+    - name: Bone.022.L_end
+      parentName: Bone.022.L
+      position: {x: -0, y: 0.22494671, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.014.R
+      parentName: Bone.006
+      position: {x: 0.2216693, y: 0.388353, z: -0.23731318}
+      rotation: {x: -0.7269803, y: 0.55460256, z: 0.23908514, w: 0.32673213}
+      scale: {x: 1.0000007, y: 1.0000004, z: 1.0000005}
+    - name: Bone.015.R
+      parentName: Bone.014.R
+      position: {x: -0, y: 0.42754537, z: 0.000000101514146}
+      rotation: {x: 0.12497385, y: -0.9881698, z: -0.030112248, w: -0.08363841}
+      scale: {x: 0.99999976, y: 1.0000008, z: 1}
+    - name: Bone.016.R
+      parentName: Bone.015.R
+      position: {x: 0.000000016530974, y: 0.41551673, z: -0.00000012642703}
+      rotation: {x: 0.053330507, y: 0.0042323982, z: 0.01371057, w: 0.9984739}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: Bone.016.R_end
+      parentName: Bone.016.R
+      position: {x: -0, y: 0.3393565, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.014.L
+      parentName: Bone.006
+      position: {x: -0.22166912, y: 0.38835296, z: -0.23731335}
+      rotation: {x: -0.71284187, y: -0.53593576, z: -0.2784218, w: 0.35652596}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000007}
+    - name: Bone.015.L
+      parentName: Bone.014.L
+      position: {x: 0.000000072643154, y: 0.42754543, z: -0.00000013038515}
+      rotation: {x: -0.12313944, y: -0.99125886, z: -0.03690528, w: 0.02967415}
+      scale: {x: 0.99999976, y: 1.0000005, z: 1}
+    - name: Bone.016.L
+      parentName: Bone.015.L
+      position: {x: -0.000000004889443, y: 0.41551661, z: 0.000000071595416}
+      rotation: {x: 0.053332046, y: -0.0043482115, z: -0.013704623, w: 0.99847335}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000008}
+    - name: Bone.016.L_end
+      parentName: Bone.016.L
+      position: {x: -0, y: 0.3393565, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.021.R
+      parentName: Bone
+      position: {x: -0.1760301, y: 0.1610476, z: -0.59602565}
+      rotation: {x: -0.00000019192802, y: 0.16835612, z: 0.9857263, w: -0.000000032780157}
+      scale: {x: 0.99999976, y: 0.9999998, z: 1}
+    - name: Bone.0199.R
+      parentName: Bone.021.R
+      position: {x: -0.00000004094245, y: -0.40716, z: 0.0782063}
+      rotation: {x: 0.00000015889276, y: 0.5779679, z: -0.81605947, w: 0.00000011253455}
+      scale: {x: 1.0000002, y: 1, z: 1}
+    - name: Bone.0199.R_end
+      parentName: Bone.0199.R
+      position: {x: -0, y: 0.3911603, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.017.R
+      parentName: Bone
+      position: {x: -0.15569043, y: 0.14940865, z: 0.59666926}
+      rotation: {x: -0.00000019158281, y: 0.17842473, z: 0.9839536, w: -0.00000003474057}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1}
+    - name: Bone.0155.R
+      parentName: Bone.017.R
+      position: {x: -0.000000045160597, y: -0.3017129, z: 0.15534534}
+      rotation: {x: 0.56959486, y: -0.00000016003489, z: 0.00000011090422, w: 0.8219257}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000001}
+    - name: Bone.0155.R_end
+      parentName: Bone.0155.R
+      position: {x: -0, y: 0.27546486, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.021.L
+      parentName: Bone
+      position: {x: 0.15666954, y: 0.1610476, z: -0.59602565}
+      rotation: {x: -0.00000030943573, y: 0.16835612, z: 0.9857263, w: -0.0000000528498}
+      scale: {x: 0.99999976, y: 0.9999998, z: 1}
+    - name: Bone.0199.L
+      parentName: Bone.021.L
+      position: {x: -0.000000057493587, y: -0.40716, z: 0.078206256}
+      rotation: {x: 0.00000025617456, y: 0.5779679, z: -0.81605947, w: 0.00000018143366}
+      scale: {x: 1.0000002, y: 1, z: 1}
+    - name: Bone.0199.L_end
+      parentName: Bone.0199.L
+      position: {x: -0, y: 0.3911603, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.017.L
+      parentName: Bone
+      position: {x: 0.15569043, y: 0.14940865, z: 0.4577909}
+      rotation: {x: -0.00000019158281, y: 0.17842473, z: 0.9839536, w: -0.00000003474057}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1}
+    - name: Bone.0155.L
+      parentName: Bone.017.L
+      position: {x: -0.000000054127405, y: -0.3017129, z: 0.15534537}
+      rotation: {x: 0.56959486, y: -0.00000016003489, z: 0.00000011090422, w: 0.8219257}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000001}
+    - name: Bone.0155.L_end
+      parentName: Bone.0155.L
+      position: {x: -0, y: 0.27546486, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Moose_low
+      parentName: Low_Moose_bull_v01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

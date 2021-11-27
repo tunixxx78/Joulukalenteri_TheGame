@@ -5,15 +5,16 @@ using UnityEngine.Audio;
 
 public class SfxManager : MonoBehaviour
 {
-    public AudioSource walk;
+    public AudioSource walk, moose;
 
     public void Walk()
     {
         walk.Play();
     }
-
-    public void StopWalking()
+    public void Moose()
     {
-        walk.Stop();
+        moose.Play();
     }
+
+    
 }
