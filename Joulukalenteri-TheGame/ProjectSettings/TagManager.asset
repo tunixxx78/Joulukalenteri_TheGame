@@ -8,6 +8,10 @@ TagManager:
   - TargetIndicators
   - TargetIndicator
   - moose
+  - Fox
+  - Hog
+  - Reindeer
+  - Wolf
   layers:
   - Default
   - TransparentFX

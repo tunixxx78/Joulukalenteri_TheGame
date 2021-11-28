@@ -6,6 +6,7 @@ public class Moose : MonoBehaviour
 {
     [SerializeField] Animator mooseAnimator;
     SfxManager sfxManager;
+    [SerializeField] GameObject hirviText;
 
     private void Awake()
     {
@@ -19,11 +20,12 @@ public class Moose : MonoBehaviour
         if (collider.gameObject.tag == "Player")
         {
             mooseAnimator.SetTrigger("Hit");
-            sfxManager.moose.Play();
+            hirviText.SetActive(true);
         }
         else
         {
             mooseAnimator.ResetTrigger("Hit");
+            hirviText.SetActive(false);
         }
     }
 
