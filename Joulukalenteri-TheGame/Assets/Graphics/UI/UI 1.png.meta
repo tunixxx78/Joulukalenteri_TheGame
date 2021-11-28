@@ -17,6 +17,30 @@ TextureImporter:
   - first:
       213: -990813372695596062
     second: UI Button
+  - first:
+      213: 4191729971547097103
+    second: UI Arrow
+  - first:
+      213: 1861290548424415969
+    second: UI Dot
+  - first:
+      213: -3954930158521233397
+    second: UI Calendar
+  - first:
+      213: 2040146047959538324
+    second: UI Scratch BG
+  - first:
+      213: 3541315635115693704
+    second: UI Gift 1
+  - first:
+      213: -1853860467712780986
+    second: UI Gift 3
+  - first:
+      213: -4846124035487540287
+    second: UI Gift 2
+  - first:
+      213: -1127037699163735007
+    second: UI Exit Icon
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -114,7 +138,7 @@ TextureImporter:
         width: 2024
         height: 1410
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -135,7 +159,7 @@ TextureImporter:
         width: 1822
         height: 1220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -156,7 +180,7 @@ TextureImporter:
         width: 290
         height: 244
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -177,7 +201,7 @@ TextureImporter:
         width: 112
         height: 116
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -198,7 +222,7 @@ TextureImporter:
         width: 598
         height: 243
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -206,6 +230,174 @@ TextureImporter:
       bones: []
       spriteID: 2e3b5c1bc7cef32f0800000000000000
       internalID: -990813372695596062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Arrow
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 51
+        width: 664
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f084c6c43340c2a30800000000000000
+      internalID: 4191729971547097103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Dot
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 129
+        width: 189
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea11aa64e1a4d910800000000000000
+      internalID: 1861290548424415969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Calendar
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 4
+        width: 923
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00dcd599f34d19c0800000000000000
+      internalID: -3954930158521233397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Scratch BG
+      rect:
+        serializedVersion: 2
+        x: 3242
+        y: 298
+        width: 289
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a9b8e750e005c10800000000000000
+      internalID: 2040146047959538324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Gift 1
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 32
+        width: 220
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8869b94bec7452130800000000000000
+      internalID: 3541315635115693704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Gift 3
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 30
+        width: 233
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64517de0ab3c546e0800000000000000
+      internalID: -1853860467712780986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Gift 2
+      rect:
+        serializedVersion: 2
+        x: 3587
+        y: 327
+        width: 230
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb58479ddb1fbcb0800000000000000
+      internalID: -4846124035487540287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Exit Icon
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 321
+        width: 148
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c3fd41f25fb50f0800000000000000
+      internalID: -1127037699163735007
       vertices: []
       indices: 
       edges: []
