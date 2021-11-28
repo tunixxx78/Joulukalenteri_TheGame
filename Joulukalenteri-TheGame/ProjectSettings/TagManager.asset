@@ -12,6 +12,8 @@ TagManager:
   - Hog
   - Reindeer
   - Wolf
+  - Bear
+  - Bunny
   layers:
   - Default
   - TransparentFX
