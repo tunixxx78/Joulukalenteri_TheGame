@@ -34,7 +34,7 @@ public class DataHolder : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A))
+       /* if (Input.GetKeyDown(KeyCode.A))
         {
             gameHasStarted = false;
             presentOne = false;
@@ -114,7 +114,7 @@ public class DataHolder : MonoBehaviour
 
 
             SaveData();
-        }
+        }*/
     }
 
     public void SaveData()

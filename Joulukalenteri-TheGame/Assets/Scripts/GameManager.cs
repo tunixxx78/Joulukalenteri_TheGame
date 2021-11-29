@@ -72,7 +72,7 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.presentTwoSpawned == false)
         {
             isSpawned2 = true;
-            if(gameDate.dateInInt <= 1)
+            if(gameDate.dateInInt < 2)
             {
                 waitForNextDay.SetActive(true);
                 Time.timeScale = 0;
@@ -85,7 +85,7 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.presentThreeSpawned == false)
         {
             isSpawned3 = true;
-            if (gameDate.dateInInt <= 2)
+            if (gameDate.dateInInt <= 3)
             {
                 waitForNextDay.SetActive(true);
                 Time.timeScale = 0;
@@ -98,7 +98,7 @@ public class GameManager : MonoBehaviour
         if(DataHolder.dataInstance.presentFourSpawned == false)
         {
             isSpawned4 = true;
-            if (gameDate.dateInInt <= 3)
+            if (gameDate.dateInInt <= 4)
             {
                 waitForNextDay.SetActive(true);
                 Time.timeScale = 0;
@@ -110,7 +110,7 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.presentFiveSpawned == false)
         {
             isSpawned5 = true;
-            if (gameDate.dateInInt <= 4)
+            if (gameDate.dateInInt <= 5)
             {
                 waitForNextDay.SetActive(true);
                 Time.timeScale = 0;
@@ -122,7 +122,7 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.presentSixSpawned == false)
         {
             isSpawned6 = true;
-            if (gameDate.dateInInt <= 5)
+            if (gameDate.dateInInt <= 6)
             {
                 waitForNextDay.SetActive(true);
                 Time.timeScale = 0;
@@ -134,7 +134,7 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.presentSevenSpawned == false)
         {
             isSpawned7 = true;
-            if (gameDate.dateInInt <= 6)
+            if (gameDate.dateInInt <= 7)
             {
                 waitForNextDay.SetActive(true);
                 Time.timeScale = 0;
@@ -146,7 +146,7 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.presentEightSpawned == false)
         {
             isSpawned8 = true;
-            if (gameDate.dateInInt <= 7)
+            if (gameDate.dateInInt <= 8)
             {
                 waitForNextDay.SetActive(true);
                 Time.timeScale = 0;
@@ -158,7 +158,7 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.presentNineSpawned == false)
         {
             isSpawned9 = true;
-            if (gameDate.dateInInt <= 8)
+            if (gameDate.dateInInt <= 9)
             {
                 waitForNextDay.SetActive(true);
                 Time.timeScale = 0;
@@ -170,7 +170,7 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.presentTenSpawned == false)
         {
             isSpawned10 = true;
-            if (gameDate.dateInInt <= 9)
+            if (gameDate.dateInInt <= 10)
             {
                 waitForNextDay.SetActive(true);
                 Time.timeScale = 0;
@@ -182,7 +182,7 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.present11Spawned == false)
         {
             isSpawned11 = true;
-            if (gameDate.dateInInt <= 10)
+            if (gameDate.dateInInt <= 11)
             {
                 waitForNextDay.SetActive(true);
                 Time.timeScale = 0;
@@ -194,7 +194,7 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.present12Spawned == false)
         {
             isSpawned12 = true;
-            if (gameDate.dateInInt <= 11)
+            if (gameDate.dateInInt <= 12)
             {
                 waitForNextDay.SetActive(true);
                 Time.timeScale = 0;
@@ -206,7 +206,7 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.present13Spawned == false)
         {
             isSpawned13 = true;
-            if (gameDate.dateInInt <= 12)
+            if (gameDate.dateInInt <= 13)
             {
                 waitForNextDay.SetActive(true);
                 Time.timeScale = 0;
@@ -218,7 +218,7 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.present14Spawned == false)
         {
             isSpawned14 = true;
-            if (gameDate.dateInInt <= 13)
+            if (gameDate.dateInInt <= 14)
             {
                 waitForNextDay.SetActive(true);
                 Time.timeScale = 0;
@@ -230,7 +230,7 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.present15Spawned == false)
         {
             isSpawned15 = true;
-            if (gameDate.dateInInt <= 14)
+            if (gameDate.dateInInt <= 15)
             {
                 waitForNextDay.SetActive(true);
                 Time.timeScale = 0;
@@ -242,7 +242,7 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.present16Spawned == false)
         {
             isSpawned16 = true;
-            if (gameDate.dateInInt <= 15)
+            if (gameDate.dateInInt <= 16)
             {
                 waitForNextDay.SetActive(true);
                 Time.timeScale = 0;
@@ -254,7 +254,7 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.present17Spawned == false)
         {
             isSpawned17 = true;
-            if (gameDate.dateInInt <= 16)
+            if (gameDate.dateInInt <= 17)
             {
                 waitForNextDay.SetActive(true);
                 Time.timeScale = 0;
@@ -266,7 +266,7 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.present18Spawned == false)
         {
             isSpawned18 = true;
-            if (gameDate.dateInInt <= 17)
+            if (gameDate.dateInInt <= 18)
             {
                 waitForNextDay.SetActive(true);
                 Time.timeScale = 0;
@@ -278,7 +278,7 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.present19Spawned == false)
         {
             isSpawned19 = true;
-            if (gameDate.dateInInt <= 18)
+            if (gameDate.dateInInt <= 19)
             {
                 waitForNextDay.SetActive(true);
                 Time.timeScale = 0;
@@ -290,7 +290,7 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.present20Spawned == false)
         {
             isSpawned20 = true;
-            if (gameDate.dateInInt <= 19)
+            if (gameDate.dateInInt <= 20)
             {
                 waitForNextDay.SetActive(true);
                 Time.timeScale = 0;
@@ -302,7 +302,7 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.present21Spawned == false)
         {
             isSpawned21 = true;
-            if (gameDate.dateInInt <= 20)
+            if (gameDate.dateInInt <= 21)
             {
                 waitForNextDay.SetActive(true);
                 Time.timeScale = 0;
@@ -314,7 +314,7 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.present22Spawned == false)
         {
             isSpawned22 = true;
-            if (gameDate.dateInInt <= 21)
+            if (gameDate.dateInInt <= 22)
             {
                 waitForNextDay.SetActive(true);
                 Time.timeScale = 0;
@@ -326,7 +326,7 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.present23Spawned == false)
         {
             isSpawned23 = true;
-            if (gameDate.dateInInt <= 22)
+            if (gameDate.dateInInt <= 23)
             {
                 waitForNextDay.SetActive(true);
                 Time.timeScale = 0;
@@ -338,7 +338,7 @@ public class GameManager : MonoBehaviour
         if (DataHolder.dataInstance.present24Spawned == false)
         {
             isSpawned4 = true;
-            if (gameDate.dateInInt <= 23)
+            if (gameDate.dateInInt <= 24)
             {
                 waitForNextDay.SetActive(true);
                 Time.timeScale = 0;
@@ -373,12 +373,13 @@ public class GameManager : MonoBehaviour
                     presentOne.SetActive(false);
                 }
             }
+           
             else if (dataHolder.presentOne == true && gameDate.dateInInt >= 1)
             {
                 
                 presentOneOpened.SetActive(true);
                 presentOne.SetActive(false);
-                if (dataHolder.presentTwo == false) { presentTwo.SetActive(true); }
+                if (dataHolder.presentTwo == false && gameDate.dateInInt >= 2) { presentTwo.SetActive(true); }
                 
             }
             
@@ -394,14 +395,14 @@ public class GameManager : MonoBehaviour
         {
             //presentTwo.SetActive(false);
 
-            if (isSpawned && dataHolder.presentTwo == false)
+            if (isSpawned2 == true && dataHolder.presentTwo == false && gameDate.dateInInt >= 2)
             {
                 Debug.Log("VOIHAN VITTU!");
                 if (gameDate.dateInInt >= 2)
                 {
                     presentTwo.SetActive(true);
                     //Instantiate(presentTwo, spawnPointTwo.transform.position, Quaternion.identity);
-                    isSpawned = false;
+                    isSpawned2 = true;
                 }
                 else
                 {
@@ -413,8 +414,9 @@ public class GameManager : MonoBehaviour
                 
                 presentTwoOpened.SetActive(true);
                 presentTwo.SetActive(false);
-                if (dataHolder.presentThree == false) { presentThree.SetActive(true); }
+                if (dataHolder.presentThree == false && gameDate.dateInInt >= 3) { presentThree.SetActive(true); }
             }
+            
 
         }
         
@@ -425,7 +427,7 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
             
-            if (isSpawned3 == true && dataHolder.presentThree == false)
+            if (isSpawned3 == true && dataHolder.presentThree == false && gameDate.dateInInt >= 3)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 3)
@@ -444,7 +446,7 @@ public class GameManager : MonoBehaviour
                 
                 presentThreeOpened.SetActive(true);
                 presentThree.SetActive(false);
-                if (dataHolder.presentFour == false) { presentFour.SetActive(true); }
+                if (dataHolder.presentFour == false && gameDate.dateInInt >= 4) { presentFour.SetActive(true); }
             }
         }
     }
@@ -453,7 +455,7 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
-            if (isSpawned4 == true && dataHolder.presentFour == false)
+            if (isSpawned4 == true && dataHolder.presentFour == false && gameDate.dateInInt >= 4)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 4)
@@ -472,7 +474,7 @@ public class GameManager : MonoBehaviour
                 Debug.Log("PERSEEEEEEEEE");
                 presentFourOpened.SetActive(true);
                 presentFour.SetActive(false);
-                if (dataHolder.presentFive == false) { presentFive.SetActive(true); }
+                if (dataHolder.presentFive == false && gameDate.dateInInt >= 5) { presentFive.SetActive(true); }
             }
         }
         
@@ -482,7 +484,7 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
-            if (isSpawned5 == true && dataHolder.presentFive == false)
+            if (isSpawned5 == true && dataHolder.presentFive == false && gameDate.dateInInt >= 5)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 5)
@@ -500,7 +502,7 @@ public class GameManager : MonoBehaviour
             {
                 presentFiveOpened.SetActive(true);
                 presentFive.SetActive(false);
-                if (dataHolder.presentSix == false) { presentSix.SetActive(true); }
+                if (dataHolder.presentSix == false && gameDate.dateInInt >= 6) { presentSix.SetActive(true); }
             }
         }
     }
@@ -509,7 +511,7 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
-            if (isSpawned6 == true && dataHolder.presentSix == false)
+            if (isSpawned6 == true && dataHolder.presentSix == false && gameDate.dateInInt >= 6)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 6)
@@ -524,7 +526,7 @@ public class GameManager : MonoBehaviour
             {
                 presentSixOpened.SetActive(true);
                 presentSix.SetActive(false);
-                if (dataHolder.presentSeven == false) { presentSeven.SetActive(true); }
+                if (dataHolder.presentSeven == false && gameDate.dateInInt >= 7) { presentSeven.SetActive(true); }
             }
         }
     }
@@ -533,7 +535,7 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
-            if (isSpawned7 == true && dataHolder.presentSeven == false)
+            if (isSpawned7 == true && dataHolder.presentSeven == false && gameDate.dateInInt >= 7)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 7)
@@ -548,7 +550,7 @@ public class GameManager : MonoBehaviour
             {
                 presentSevenOpened.SetActive(true);
                 presentSeven.SetActive(false);
-                if (dataHolder.presentEight == false) { presentEight.SetActive(true); }
+                if (dataHolder.presentEight == false && gameDate.dateInInt >= 8) { presentEight.SetActive(true); }
             }
         }
     }
@@ -557,7 +559,7 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
-            if (isSpawned8 == true && dataHolder.presentEight == false)
+            if (isSpawned8 == true && dataHolder.presentEight == false && gameDate.dateInInt >= 8)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 8)
@@ -572,7 +574,7 @@ public class GameManager : MonoBehaviour
             {
                 presentEightOpened.SetActive(true);
                 presentEight.SetActive(false);
-                if (dataHolder.presentNine == false) { presentNine.SetActive(true); }
+                if (dataHolder.presentNine == false && gameDate.dateInInt >= 9) { presentNine.SetActive(true); }
             }
         }
     }
@@ -581,7 +583,7 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
-            if (isSpawned9 == true && dataHolder.presentNine == false)
+            if (isSpawned9 == true && dataHolder.presentNine == false && gameDate.dateInInt >= 9)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 9)
@@ -596,7 +598,7 @@ public class GameManager : MonoBehaviour
             {
                 presentNineOpened.SetActive(true);
                 presentNine.SetActive(false);
-                if (dataHolder.presentTen == false) { presentTen.SetActive(true); }
+                if (dataHolder.presentTen == false && gameDate.dateInInt >= 10) { presentTen.SetActive(true); }
             }
         }
     }
@@ -605,7 +607,7 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
-            if (isSpawned10 == true && dataHolder.presentTen == false)
+            if (isSpawned10 == true && dataHolder.presentTen == false && gameDate.dateInInt >= 10)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 10)
@@ -620,7 +622,7 @@ public class GameManager : MonoBehaviour
             {
                 presentTenOpened.SetActive(true);
                 presentTen.SetActive(false);
-                if (dataHolder.present11 == false) { present11.SetActive(true); }
+                if (dataHolder.present11 == false && gameDate.dateInInt >= 11) { present11.SetActive(true); }
             }
         }
     }
@@ -629,7 +631,7 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
-            if (isSpawned11 == true && dataHolder.present11 == false)
+            if (isSpawned11 == true && dataHolder.present11 == false && gameDate.dateInInt >= 11)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 11)
@@ -644,7 +646,7 @@ public class GameManager : MonoBehaviour
             {
                 present11Opened.SetActive(true);
                 present11.SetActive(false);
-                if (dataHolder.present12 == false) { present12.SetActive(true); }
+                if (dataHolder.present12 == false && gameDate.dateInInt >= 12) { present12.SetActive(true); }
             }
         }
     }
@@ -653,7 +655,7 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
-            if (isSpawned12 == true && dataHolder.present12 == false)
+            if (isSpawned12 == true && dataHolder.present12 == false && gameDate.dateInInt >= 12)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 12)
@@ -668,7 +670,7 @@ public class GameManager : MonoBehaviour
             {
                 present12Opened.SetActive(true);
                 present12.SetActive(false);
-                if (dataHolder.present13 == false) { present13.SetActive(true); }
+                if (dataHolder.present13 == false && gameDate.dateInInt >= 13) { present13.SetActive(true); }
             }
         }
     }
@@ -677,7 +679,7 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
-            if (isSpawned13 == true && dataHolder.present13 == false)
+            if (isSpawned13 == true && dataHolder.present13 == false && gameDate.dateInInt >= 13)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 13)
@@ -692,7 +694,7 @@ public class GameManager : MonoBehaviour
             {
                 present13Opened.SetActive(true);
                 present13.SetActive(false);
-                if (dataHolder.present14 == false) { present14.SetActive(true); }
+                if (dataHolder.present14 == false && gameDate.dateInInt >= 14) { present14.SetActive(true); }
             }
         }
     }
@@ -701,7 +703,7 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
-            if (isSpawned14 == true && dataHolder.present14 == false)
+            if (isSpawned14 == true && dataHolder.present14 == false && gameDate.dateInInt >= 14)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 14)
@@ -716,7 +718,7 @@ public class GameManager : MonoBehaviour
             {
                 present14Opened.SetActive(true);
                 present14.SetActive(false);
-                if (dataHolder.present15 == false) { present15.SetActive(true); }
+                if (dataHolder.present15 == false && gameDate.dateInInt >= 15) { present15.SetActive(true); }
             }
         }
     }
@@ -725,7 +727,7 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
-            if (isSpawned15 == true && dataHolder.present15 == false)
+            if (isSpawned15 == true && dataHolder.present15 == false && gameDate.dateInInt >= 15)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 15)
@@ -740,7 +742,7 @@ public class GameManager : MonoBehaviour
             {
                 present15Opened.SetActive(true);
                 present15.SetActive(false);
-                if (dataHolder.present16 == false) { present16.SetActive(true); }
+                if (dataHolder.present16 == false && gameDate.dateInInt >= 16) { present16.SetActive(true); }
             }
         }
     }
@@ -749,7 +751,7 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
-            if (isSpawned16 == true && dataHolder.present16 == false)
+            if (isSpawned16 == true && dataHolder.present16 == false && gameDate.dateInInt >= 16)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 16)
@@ -764,7 +766,7 @@ public class GameManager : MonoBehaviour
             {
                 present16Opened.SetActive(true);
                 present16.SetActive(false);
-                if (dataHolder.present17 == false) { present17.SetActive(true); }
+                if (dataHolder.present17 == false && gameDate.dateInInt >= 17) { present17.SetActive(true); }
             }
         }
     }
@@ -773,7 +775,7 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
-            if (isSpawned17 == true && dataHolder.present17 == false)
+            if (isSpawned17 == true && dataHolder.present17 == false && gameDate.dateInInt >= 17)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 17)
@@ -788,7 +790,7 @@ public class GameManager : MonoBehaviour
             {
                 present17Opened.SetActive(true);
                 present17.SetActive(false);
-                if (dataHolder.present18 == false) { present18.SetActive(true); }
+                if (dataHolder.present18 == false && gameDate.dateInInt >= 18) { present18.SetActive(true); }
             }
         }
     }
@@ -797,7 +799,7 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
-            if (isSpawned18 == true && dataHolder.present18 == false)
+            if (isSpawned18 == true && dataHolder.present18 == false && gameDate.dateInInt >= 18)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 18)
@@ -812,7 +814,7 @@ public class GameManager : MonoBehaviour
             {
                 present18Opened.SetActive(true);
                 present18.SetActive(false);
-                if (dataHolder.present19 == false) { present19.SetActive(true); }
+                if (dataHolder.present19 == false && gameDate.dateInInt >= 19) { present19.SetActive(true); }
             }
         }
     }
@@ -821,7 +823,7 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
-            if (isSpawned19 == true && dataHolder.present19 == false)
+            if (isSpawned19 == true && dataHolder.present19 == false && gameDate.dateInInt >= 19)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 19)
@@ -836,7 +838,7 @@ public class GameManager : MonoBehaviour
             {
                 present19Opened.SetActive(true);
                 present19.SetActive(false);
-                if (dataHolder.present20 == false) { present20.SetActive(true); }
+                if (dataHolder.present20 == false && gameDate.dateInInt >= 20) { present20.SetActive(true); }
             }
         }
     }
@@ -845,7 +847,7 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
-            if (isSpawned20 == true && dataHolder.present20 == false)
+            if (isSpawned20 == true && dataHolder.present20 == false && gameDate.dateInInt >= 20)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 20)
@@ -860,7 +862,7 @@ public class GameManager : MonoBehaviour
             {
                 present20Opened.SetActive(true);
                 present20.SetActive(false);
-                if (dataHolder.present21 == false) { present21.SetActive(true); }
+                if (dataHolder.present21 == false && gameDate.dateInInt >= 21) { present21.SetActive(true); }
             }
         }
     }
@@ -869,7 +871,7 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
-            if (isSpawned21 == true && dataHolder.present21 == false)
+            if (isSpawned21 == true && dataHolder.present21 == false && gameDate.dateInInt >= 21)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 21)
@@ -884,7 +886,7 @@ public class GameManager : MonoBehaviour
             {
                 present21Opened.SetActive(true);
                 present21.SetActive(false);
-                if (dataHolder.present22 == false) { present22.SetActive(true); }
+                if (dataHolder.present22 == false && gameDate.dateInInt >= 22) { present22.SetActive(true); }
             }
         }
     }
@@ -893,7 +895,7 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
-            if (isSpawned22 == true && dataHolder.present22 == false)
+            if (isSpawned22 == true && dataHolder.present22 == false && gameDate.dateInInt >= 22)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 22)
@@ -908,7 +910,7 @@ public class GameManager : MonoBehaviour
             {
                 present22Opened.SetActive(true);
                 present22.SetActive(false);
-                if (dataHolder.present23 == false) { present23.SetActive(true); }
+                if (dataHolder.present23 == false && gameDate.dateInInt >= 23) { present23.SetActive(true); }
             }
         }
     }
@@ -917,7 +919,7 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
-            if (isSpawned23 == true && dataHolder.present23 == false)
+            if (isSpawned23 == true && dataHolder.present23 == false && gameDate.dateInInt >= 23)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 23)
@@ -932,7 +934,7 @@ public class GameManager : MonoBehaviour
             {
                 present23Opened.SetActive(true);
                 present23.SetActive(false);
-                if (dataHolder.present24 == false) { present24.SetActive(true); }
+                if (dataHolder.present24 == false && gameDate.dateInInt >= 24) { present24.SetActive(true); }
             }
         }
     }
@@ -941,7 +943,7 @@ public class GameManager : MonoBehaviour
         if (gameDate.dateInInt >= 1 && gameDate.dateInInt <= maxDay)
         {
 
-            if (isSpawned24 == true && dataHolder.present24 == false)
+            if (isSpawned24 == true && dataHolder.present24 == false && gameDate.dateInInt >= 24)
             {
                 Debug.Log("PASKAA");
                 if (gameDate.dateInInt >= 24)

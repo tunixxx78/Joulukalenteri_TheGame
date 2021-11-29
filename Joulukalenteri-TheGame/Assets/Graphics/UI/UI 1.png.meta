@@ -4,43 +4,46 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 822504558703882474
-    second: UI Gift Border
+    second: UI 1_0
   - first:
       213: -7054688187978672202
-    second: UI Gift Bg
+    second: UI 1_1
   - first:
       213: -8132923703055857805
-    second: UI Button Small
+    second: UI 1_2
   - first:
       213: 4353910902837494212
-    second: UI Icon OK
+    second: UI 1_3
   - first:
       213: -990813372695596062
-    second: UI Button
+    second: UI 1_4
   - first:
       213: 4191729971547097103
-    second: UI Arrow
+    second: UI 1_5
   - first:
       213: 1861290548424415969
-    second: UI Dot
+    second: UI 1_6
   - first:
       213: -3954930158521233397
-    second: UI Calendar
+    second: UI 1_7
   - first:
       213: 2040146047959538324
-    second: UI Scratch BG
+    second: UI 1_8
   - first:
       213: 3541315635115693704
-    second: UI Gift 1
+    second: UI 1_9
   - first:
       213: -1853860467712780986
-    second: UI Gift 3
+    second: UI 1_10
   - first:
       213: -4846124035487540287
-    second: UI Gift 2
+    second: UI 1_11
   - first:
       213: -1127037699163735007
-    second: UI Exit Icon
+    second: UI 1_12
+  - first:
+      213: -2189885317640878068
+    second: UI 1_13
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -130,7 +133,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UI Gift Border
+      name: UI 1_0
       rect:
         serializedVersion: 2
         x: 45
@@ -151,7 +154,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI Gift Bg
+      name: UI 1_1
       rect:
         serializedVersion: 2
         x: 2155
@@ -172,13 +175,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI Button Small
+      name: UI 1_2
       rect:
         serializedVersion: 2
-        x: 48
+        x: 49
         y: 113
-        width: 290
-        height: 244
+        width: 288
+        height: 242
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,13 +196,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI Icon OK
+      name: UI 1_3
       rect:
         serializedVersion: 2
-        x: 465
-        y: 155
-        width: 112
-        height: 116
+        x: 135
+        y: 400
+        width: 88
+        height: 74
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,13 +217,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI Button
+      name: UI 1_4
       rect:
         serializedVersion: 2
-        x: 701
-        y: 111
-        width: 598
-        height: 243
+        x: 439
+        y: 330
+        width: 134
+        height: 123
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,15 +238,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI Arrow
+      name: UI 1_5
       rect:
         serializedVersion: 2
-        x: 1378
-        y: 51
-        width: 664
-        height: 348
+        x: 1381
+        y: 55
+        width: 658
+        height: 344
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -256,15 +259,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI Dot
+      name: UI 1_6
       rect:
         serializedVersion: 2
-        x: 2064
-        y: 129
-        width: 189
-        height: 184
+        x: 2283
+        y: 7
+        width: 914
+        height: 590
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -277,15 +280,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI Calendar
+      name: UI 1_7
       rect:
         serializedVersion: 2
-        x: 2280
-        y: 4
-        width: 923
-        height: 599
+        x: 3245
+        y: 299
+        width: 284
+        height: 284
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -298,15 +301,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI Scratch BG
+      name: UI 1_8
       rect:
         serializedVersion: 2
-        x: 3242
-        y: 298
-        width: 289
-        height: 284
+        x: 3595
+        y: 333
+        width: 214
+        height: 206
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -319,15 +322,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI Gift 1
+      name: UI 1_9
       rect:
         serializedVersion: 2
-        x: 3240
-        y: 32
-        width: 220
-        height: 219
+        x: 465
+        y: 155
+        width: 112
+        height: 116
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -340,15 +343,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI Gift 3
+      name: UI 1_10
       rect:
         serializedVersion: 2
-        x: 3584
-        y: 30
-        width: 233
-        height: 216
+        x: 701
+        y: 111
+        width: 598
+        height: 242
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -361,15 +364,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI Gift 2
+      name: UI 1_11
       rect:
         serializedVersion: 2
-        x: 3587
-        y: 327
-        width: 230
-        height: 227
+        x: 2067
+        y: 129
+        width: 184
+        height: 184
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -382,15 +385,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI Exit Icon
+      name: UI 1_12
       rect:
         serializedVersion: 2
-        x: 435
-        y: 321
-        width: 148
-        height: 141
+        x: 3241
+        y: 39
+        width: 214
+        height: 204
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -398,6 +401,27 @@ TextureImporter:
       bones: []
       spriteID: 12c3fd41f25fb50f0800000000000000
       internalID: -1127037699163735007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI 1_13
+      rect:
+        serializedVersion: 2
+        x: 3597
+        y: 39
+        width: 214
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c080c27f7e6fb91e0800000000000000
+      internalID: -2189885317640878068
       vertices: []
       indices: 
       edges: []
